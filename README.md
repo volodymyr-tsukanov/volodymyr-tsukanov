@@ -16,14 +16,18 @@
 ### Languages
 [![Java](https://img.shields.io/badge/java-393646?style=for-the-badge&logo=openjdk)](https://github.com/volodymyr-tsukanov)
 [![C#](https://img.shields.io/badge/c%23-393646?style=for-the-badge&logo=csharp)](https://github.com/volodymyr-tsukanov)
+[![DotNet](https://img.shields.io/badge/dotNet-393646?style=for-the-badge&logo=dotnet)](https://github.com/volodymyr-tsukanov)
 [![C++](https://img.shields.io/badge/c++-393646?style=for-the-badge&logo=cplusplus)](https://github.com/volodymyr-tsukanov)
 [![C](https://img.shields.io/badge/c-393646?style=for-the-badge&logo=c)](https://github.com/volodymyr-tsukanov)
 [![Python](https://img.shields.io/badge/python-393646?style=for-the-badge&logo=python)](https://github.com/volodymyr-tsukanov)
-[![Bash](https://img.shields.io/badge/bash-393646?style=for-the-badge&logo=gnu-bash&logoColor=white)](https://github.com/volodymyr-tsukanov)
-[![Batch](https://img.shields.io/badge/batch-393646?style=for-the-badge&logo=gnu-bash&logoColor=white)](https://github.com/volodymyr-tsukanov)
+[![Php](https://img.shields.io/badge/php-393646?style=for-the-badge&logo=php)](https://github.com/volodymyr-tsukanov)
 
 [![HTML](https://img.shields.io/badge/html-393646?style=for-the-badge&logo=html5)](https://github.com/volodymyr-tsukanov)
 [![CSS](https://img.shields.io/badge/css-393646?style=for-the-badge&logo=css3)](https://github.com/volodymyr-tsukanov)
+[![SQL](https://img.shields.io/badge/SQL-393646?style=for-the-badge&logo=postgresql)](https://github.com/volodymyr-tsukanov)
+
+[![Bash](https://img.shields.io/badge/bash-393646?style=for-the-badge&logo=gnu-bash&logoColor=white)](https://github.com/volodymyr-tsukanov)
+[![Batch](https://img.shields.io/badge/batch-393646?style=for-the-badge&logo=gnu-bash&logoColor=white)](https://github.com/volodymyr-tsukanov)
 
 
 ### OS
@@ -33,7 +37,7 @@
 [![Mac](https://img.shields.io/badge/Mac-393646?style=for-the-badge&logo=macos)](https://github.com/volodymyr-tsukanov)
 
 
-### Software
+### IDE & Software
 [![Unity](https://img.shields.io/badge/Unity-393646?style=for-the-badge&logo=unity)](https://github.com/volodymyr-tsukanov)
 [![Godot](https://img.shields.io/badge/Godot-393646?style=for-the-badge&logo=godotengine)](https://github.com/volodymyr-tsukanov)
 [![GameMaker](https://img.shields.io/badge/GameMaker-393646?style=for-the-badge&logo=gamemaker)](https://github.com/volodymyr-tsukanov)
@@ -41,10 +45,15 @@
 [![VisualStudio](https://img.shields.io/badge/Visual%20Studio-393646?style=for-the-badge&logo=visualstudio&logoColor=blue)](https://github.com/volodymyr-tsukanov)
 [![IntelliJIDEA](https://img.shields.io/badge/Intellij%20Idea-393646?style=for-the-badge&logo=intellijidea&logoColor=violet)](https://github.com/volodymyr-tsukanov)
 [![AndroidStudio](https://img.shields.io/badge/Android%20Studio-393646?style=for-the-badge&logo=androidstudio)](https://github.com/volodymyr-tsukanov)
+[![SQLDeveloper](https://img.shields.io/badge/Oracle%20SQL%20Developer-393646?style=for-the-badge&logo=oracle)](https://github.com/volodymyr-tsukanov)
+[![NetBeans](https://img.shields.io/badge/NetBeans-393646?style=for-the-badge&logo=apachenetbeanside)](https://github.com/volodymyr-tsukanov)
 [![Qt](https://img.shields.io/badge/Qt-393646?style=for-the-badge&logo=qt)](https://github.com/volodymyr-tsukanov)
+[![Eclipse](https://img.shields.io/badge/Eclipse-393646?style=for-the-badge&logo=eclipseide)](https://github.com/volodymyr-tsukanov)
 
 [![CodeBlocks](https://img.shields.io/badge/CodeBlocks-393646?style=for-the-badge&logo=codeblocks)](https://github.com/volodymyr-tsukanov)
 [![MonoDevelop](https://img.shields.io/badge/MonoDevelop-393646?style=for-the-badge&logo=monodevelop)](https://github.com/volodymyr-tsukanov)
+
+[![Git](https://img.shields.io/badge/Git-393646?style=for-the-badge&logo=git)](https://github.com/volodymyr-tsukanov)
 
 
 <details>
