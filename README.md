@@ -20,6 +20,7 @@
 [![C](https://img.shields.io/badge/c-393646?style=for-the-badge&logo=c)](https://github.com/volodymyr-tsukanov)
 [![Python](https://img.shields.io/badge/python-393646?style=for-the-badge&logo=python)](https://github.com/volodymyr-tsukanov)
 [![Bash](https://img.shields.io/badge/bash-393646?style=for-the-badge&logo=gnu-bash&logoColor=white)](https://github.com/volodymyr-tsukanov)
+[![Batch](https://img.shields.io/badge/batch-393646?style=for-the-badge&logo=gnu-bash&logoColor=white)](https://github.com/volodymyr-tsukanov)
 
 [![HTML](https://img.shields.io/badge/html-393646?style=for-the-badge&logo=html5)](https://github.com/volodymyr-tsukanov)
 [![CSS](https://img.shields.io/badge/css-393646?style=for-the-badge&logo=css3)](https://github.com/volodymyr-tsukanov)
