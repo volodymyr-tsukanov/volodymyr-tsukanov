@@ -30,13 +30,6 @@
 [![Batch](https://img.shields.io/badge/batch-393646?style=for-the-badge&logo=gnu-bash&logoColor=white)](https://github.com/volodymyr-tsukanov)
 
 
-### OS
-[![Android](https://img.shields.io/badge/Android-393646?style=for-the-badge&logo=android)](https://github.com/volodymyr-tsukanov)
-[![Windows](https://img.shields.io/badge/Windows-393646?style=for-the-badge&logo=Windows)](https://github.com/volodymyr-tsukanov)
-[![Linux](https://img.shields.io/badge/Linux-393646?style=for-the-badge&logo=kalilinux)](https://github.com/volodymyr-tsukanov)
-[![Mac](https://img.shields.io/badge/Mac-393646?style=for-the-badge&logo=macos)](https://github.com/volodymyr-tsukanov)
-
-
 ### IDE & Software
 [![Unity](https://img.shields.io/badge/Unity-393646?style=for-the-badge&logo=unity)](https://github.com/volodymyr-tsukanov)
 [![Godot](https://img.shields.io/badge/Godot-393646?style=for-the-badge&logo=godotengine)](https://github.com/volodymyr-tsukanov)
@@ -54,6 +47,13 @@
 [![MonoDevelop](https://img.shields.io/badge/MonoDevelop-393646?style=for-the-badge&logo=monodevelop)](https://github.com/volodymyr-tsukanov)
 
 [![Git](https://img.shields.io/badge/Git-393646?style=for-the-badge&logo=git)](https://github.com/volodymyr-tsukanov)
+
+
+### OS
+[![Android](https://img.shields.io/badge/Android-393646?style=for-the-badge&logo=android)](https://github.com/volodymyr-tsukanov)
+[![Windows](https://img.shields.io/badge/Windows-393646?style=for-the-badge&logo=Windows)](https://github.com/volodymyr-tsukanov)
+[![Linux](https://img.shields.io/badge/Linux-393646?style=for-the-badge&logo=kalilinux)](https://github.com/volodymyr-tsukanov)
+[![Mac](https://img.shields.io/badge/Mac-393646?style=for-the-badge&logo=macos)](https://github.com/volodymyr-tsukanov)
 
 
 <details>
