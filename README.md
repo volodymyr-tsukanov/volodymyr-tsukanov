@@ -55,7 +55,81 @@
 [![Windows](https://img.shields.io/badge/Windows-393646?style=for-the-badge&logo=Windows)](https://github.com/volodymyr-tsukanov)
 [![Linux](https://img.shields.io/badge/Linux-393646?style=for-the-badge&logo=kalilinux)](https://github.com/volodymyr-tsukanov)
 [![Mac](https://img.shields.io/badge/Mac-393646?style=for-the-badge&logo=macos)](https://github.com/volodymyr-tsukanov)
+</br></br>
 
+
+<details>
+<summary>Git shortcuts</summary>
+# Setup
+git config credential.helper ""
+
+
+# Get updates from remote
+git pull morig
+
+git fetch morig
+git merge morig/<branch>
+
+
+# Push to remote
+git add .
+git commit -m 'msg'
+git push morig <branch>
+
+
+# Branches
+git branch <new-branch>
+git switch <branch>
+
+git branch -d <branch-to-delete>
+
+
+# Stash
+git stash save <save-name>
+
+git stash list
+git apply <index>
+
+
+# Commit history
+git log --oneline / --graph
+
+git reset --hard HEAD^	# delete last commit
+git reset --hard HEAD~<n>	# delete last n commits
+
+git rebase
+git rebase -i HEAD~<n>	# choose specific commit to delete from n last commits (opens text editor)
+
+git push morig <branch> --force	# force push to apply changes
+
+
+# Change branch tracking remote to morig
+git branch -vv	# shows info about tracking remote (for current branch)
+git branch --set-upstream-to=morig/<branch>
+
+
+# .gitignore
+<file>
+<folder>/**	# with it content
+*.<extention>
+*<pattern>*	# all files that contains pattern
+
+
+	///	---	\\\
+
+
+README.md :
+# telephone-book
+Java; Android; Informatyka l stopień 2 semestr</br></br>
+
+
+Shield: [![CC BY-NC 4.0][cc-by-nc-shield]][cc-by-nc]
+
+[cc-by-nc]: http://creativecommons.org/licenses/by-nc/4.0/
+[cc-by-nc-shield]: https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg
+
+<a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International License</a>.
+</details>
 
 <details>
 <summary>Other</summary>
