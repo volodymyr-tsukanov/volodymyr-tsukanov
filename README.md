@@ -60,65 +60,89 @@
 
 <details>
 <summary>Git shortcuts</summary>
-# Setup
+
+## Setup
+```
 git config credential.helper ""
+```
 
-
-# Get updates from remote
+## Get updates from remote
+### Pull
+```
 git pull morig
-
+```
+### Fetch & merge
+```
 git fetch morig
 git merge morig/<branch>
+```
 
-
-# Push to remote
+## Push to remote
+```
 git add .
 git commit -m 'msg'
 git push morig <branch>
+```
 
-
-# Branches
+## Branches
+```
 git branch <new-branch>
 git switch <branch>
 
 git branch -d <branch-to-delete>
+```
 
-
-# Stash
+## Stash
+### Save
+```
 git stash save <save-name>
-
+```
+### Load
+```
 git stash list
 git apply <index>
+```
 
-
-# Commit history
+## Commit history
+```
 git log --oneline / --graph
-
-git reset --hard HEAD^	# delete last commit
-git reset --hard HEAD~<n>	# delete last n commits
-
+```
+### Delete last commit
+```
+git reset --hard HEAD^
+```
+### Delete last n commits
+```
+git reset --hard HEAD~<n>
+```
+### Choose specific commit to delete from n last commits (opens text editor)
+```
 git rebase
-git rebase -i HEAD~<n>	# choose specific commit to delete from n last commits (opens text editor)
+git rebase -i HEAD~<n>
+```
+### Force push to apply changes
+```
+git push morig <branch> --force
+```
 
-git push morig <branch> --force	# force push to apply changes
-
-
-# Change branch tracking remote to morig
-git branch -vv	# shows info about tracking remote (for current branch)
+## Change branch tracking remote to morig
+### Shows info about tracking remote (for current branch)
+```
+git branch -vv
+```
+```
 git branch --set-upstream-to=morig/<branch>
-
+```
 
 # .gitignore
+```
 <file>
 <folder>/**	# with it content
 *.<extention>
 *<pattern>*	# all files that contains pattern
+```
 
-
-	///	---	\\\
-
-
-README.md :
+# README.md :
 # telephone-book
 Java; Android; Informatyka l stopień 2 semestr</br></br>
 
