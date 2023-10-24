@@ -105,7 +105,7 @@ git apply <index>
 
 ## Commit history
 ```
-git log --oneline / --graph
+git log --oneline --graph
 ```
 ### Delete last commit
 ```
