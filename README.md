@@ -62,8 +62,15 @@
 <summary>Git shortcuts</summary>
 
 ## Setup
+### Protect sensitive data from being stored
 ```
 git config credential.helper ""
+```
+
+## Aliases
+### add & commit in one command
+```
+git config --global alias.<alias-name> '!git add -A && git commit -m'
 ```
 
 ## Get updates from remote
