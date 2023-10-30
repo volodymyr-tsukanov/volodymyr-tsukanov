@@ -111,9 +111,22 @@ git apply <index>
 ```
 
 ## Commit history
+### See commit history for current branch
 ```
 git log --oneline --graph
 ```
+
+## Revert
+### Revert last n commits
+```
+git revert HEAD~<n>..HEAD
+```
+### Revert specified commit (by it`s hash)
+```
+git revert <commit-hash>
+```
+
+## Reset (for local use or force push)
 ### Delete last commit
 ```
 git reset --hard HEAD^
