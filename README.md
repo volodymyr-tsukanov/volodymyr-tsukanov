@@ -98,11 +98,11 @@ git push morig <branch>
 ```
 
 ## Branches
-### New branch from current commit
+### New branch from current branch
 ```
 git branch <new-branch>
 ```
-### Checkout branch
+### Switch branch
 ```
 git switch <branch>
 // or
