@@ -152,6 +152,10 @@ git reset --hard HEAD^
 ```
 git reset --hard HEAD~<n>
 ```
+### Delete specified commit (by it`s hash)
+```
+git reset <commit-hash>
+```
 ### Choose specific commit to delete from n last commits (opens text editor)
 ```
 git rebase
