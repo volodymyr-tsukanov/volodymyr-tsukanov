@@ -105,6 +105,10 @@ git push morig <branch>
 ### New branch from current branch
 ```
 git branch <new-branch>
+// or
+git switch -c <new-branch>
+// or
+git checkout -b <new-branch>
 ```
 ### Switch branch
 ```
@@ -121,10 +125,6 @@ git branch -d <branch-to-delete>
 ### Checkout commit by hash from log
 ```
 git checkout <commit-hash>
-```
-### Create new branch from current commit
-```
-git checkout -b <new-branch>
 ```
 
 ## Stash
