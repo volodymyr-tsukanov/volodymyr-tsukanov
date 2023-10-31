@@ -64,7 +64,7 @@
 ## Setup
 ### Protect sensitive data from being stored
 ```
-git config credential.helper ""
+git config --global credential.helper ""
 ```
 
 ## Aliases
@@ -83,6 +83,12 @@ git pull morig
 git fetch morig
 git merge morig/<branch>
 ```
+### Switch to remote branch
+```
+git switch --track morig/<branch>
+// or
+git checkout --track morig/<branch>
+```
 
 ## Push to remote
 ```
@@ -99,6 +105,7 @@ git branch <new-branch>
 ### Checkout branch
 ```
 git switch <branch>
+// or
 git checkout<branch>
 ```
 ### Delete branch
@@ -111,7 +118,7 @@ git branch -d <branch-to-delete>
 ```
 git checkout<commit-hash>
 ```
-### Create new branch
+### Create new branch from current commit
 ```
 git checkout -b <new-branch>
 ```
@@ -154,7 +161,7 @@ git reset --hard HEAD~<n>
 ```
 ### Delete specified commit (by it`s hash)
 ```
-git reset <commit-hash>
+git reset --hard <commit-hash>
 ```
 ### Choose specific commit to delete from n last commits (opens text editor)
 ```
@@ -171,6 +178,7 @@ git push morig <branch> --force
 ```
 git branch -vv
 ```
+### Alternative to `git switch --track`
 ```
 git branch --set-upstream-to=morig/<branch>
 ```
