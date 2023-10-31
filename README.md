@@ -106,7 +106,7 @@ git branch <new-branch>
 ```
 git switch <branch>
 // or
-git checkout<branch>
+git checkout <branch>
 ```
 ### Delete branch
 ```
@@ -116,7 +116,7 @@ git branch -d <branch-to-delete>
 ## Traveling in time
 ### Checkout commit by hash from log
 ```
-git checkout<commit-hash>
+git checkout <commit-hash>
 ```
 ### Create new branch from current commit
 ```
