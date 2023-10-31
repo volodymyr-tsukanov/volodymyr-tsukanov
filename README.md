@@ -68,9 +68,13 @@ git config --global credential.helper ""
 ```
 
 ## Aliases
-### add & commit in one command
+### add & commit
 ```
-git config --global alias.<alias-name> '!git add -A && git commit -m'
+git config --global alias.ca '!git add -A && git commit -m'
+```
+### push to remote
+```
+git config --global alias.pm 'push morig'
 ```
 
 ## Get updates from remote
