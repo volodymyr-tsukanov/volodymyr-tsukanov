@@ -98,6 +98,15 @@ git switch <branch>
 
 git branch -d <branch-to-delete>
 ```
+## Traveling in time
+### Checkout commit by hash from log
+```
+git checkout<commit-hash>
+```
+### Create new branch
+```
+git checkout -b <new-branch>
+```
 
 ## Stash
 ### Save
