@@ -92,12 +92,20 @@ git push morig <branch>
 ```
 
 ## Branches
+### New branch from current commit
 ```
 git branch <new-branch>
+'''
+### Checkout branch
+'''
 git switch <branch>
-
+git checkout<branch>
+```
+### Delete branch
+```
 git branch -d <branch-to-delete>
 ```
+
 ## Traveling in time
 ### Checkout commit by hash from log
 ```
