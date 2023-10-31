@@ -95,9 +95,9 @@ git push morig <branch>
 ### New branch from current commit
 ```
 git branch <new-branch>
-'''
+```
 ### Checkout branch
-'''
+```
 git switch <branch>
 git checkout<branch>
 ```
