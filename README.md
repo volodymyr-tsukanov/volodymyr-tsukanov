@@ -72,10 +72,6 @@ git config --global credential.helper ""
 ```
 git config --global alias.ca '!git add -A && git commit -m'
 ```
-### push to remote
-```
-git config --global alias.pm 'push morig'
-```
 ### push current branch to remote
 ```
 git config --global alias.pmc 'push -u morig HEAD'
@@ -84,14 +80,14 @@ git config --global alias.pmc 'push -u morig HEAD'
 ## Get updates from remote
 ### Pull
 ```
-git pull morig
+git pull morig <branch-to-pull>
 ```
-### Fetch & merge
+### Fetch & merge (leaves merge commit)
 ```
 git fetch morig
 git merge morig/<branch>
 ```
-### Switch to remote branch
+### Switch to remote branch (after `git fetch`)
 ```
 git switch --track morig/<branch>
 // or
@@ -120,13 +116,17 @@ git switch <branch>
 // or
 git checkout <branch>
 ```
+### Switch to previous branch
+```
+git switch -
+```
 ### Delete branch
 ```
 git branch -d <branch-to-delete>
 ```
 
 ## Traveling in time
-### Checkout commit by hash from log
+### Checkout commit by hash from `git log`
 ```
 git checkout <commit-hash>
 ```
@@ -186,7 +186,7 @@ git push morig <branch> --force
 ```
 git branch -vv
 ```
-### Alternative to `git switch --track`
+### Alternative to `git switch --track` (when branch is alredy exists)
 ```
 git branch --set-upstream-to=morig/<branch>
 ```
