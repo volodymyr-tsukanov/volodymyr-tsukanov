@@ -76,6 +76,10 @@ git config --global alias.ca '!git add -A && git commit -m'
 ```
 git config --global alias.pm 'push morig'
 ```
+### push current branch to remote
+```
+git config --global alias.pmc 'push -u morig HEAD'
+```
 
 ## Get updates from remote
 ### Pull
