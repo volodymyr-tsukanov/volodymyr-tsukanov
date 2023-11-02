@@ -2,9 +2,7 @@
 
 <p align="center">
     <b>Welcome to my page!</b><br><br>
-    <i>
-        I'm Volodymyr<br>
-    </i><br>
+    <i>I'm Volodymyr<br></i><br>
    <!--Links
     <a href="https://www.linkedin.com/in/">
         <img src="" alt="LinkedIn">
@@ -116,7 +114,7 @@ git switch <branch>
 // or
 git checkout <branch>
 ```
-### Switch to previous branch
+### Switch to previous branch (discard changes made with `git checkout <commit>` and not saved with `git switch -c`)
 ```
 git switch -
 ```
@@ -174,6 +172,7 @@ git reset --hard <commit-hash>
 ### Choose specific commit to delete from n last commits (opens text editor)
 ```
 git rebase
+// or
 git rebase -i HEAD~<n>
 ```
 ### Force push to apply changes
@@ -199,9 +198,9 @@ git branch --set-upstream-to=morig/<branch>
 *<pattern>*	# all files that contains pattern
 ```
 
-# README.md :
-# telephone-book
-Java; Android; Informatyka l stopień 2 semestr</br></br>
+# README.md template:
+# <repo-name>
+<programming-language>, <IDE>;<description></br></br>
 
 
 Shield: [![CC BY-NC 4.0][cc-by-nc-shield]][cc-by-nc]
