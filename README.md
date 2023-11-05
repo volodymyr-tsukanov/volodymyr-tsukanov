@@ -74,6 +74,7 @@ git config --global alias.ca '!git add -A && git commit -m'
 ```
 git config --global alias.pmc 'push -u morig HEAD'
 ```
+it is possible to use only `git push` after `git pmc`
 
 ## Get updates from remote
 ### Pull
@@ -117,6 +118,10 @@ git checkout <branch>
 ### Switch to previous branch (discard changes made with `git checkout <commit>` and not saved with `git switch -c`)
 ```
 git switch -
+```
+### Rename (move) branch
+```
+git branch -m <old-branch> <new-branch>
 ```
 ### Delete branch
 ```
