@@ -68,7 +68,7 @@ git config --global credential.helper ""
 ## Aliases
 ### add & commit
 ```
-git config --global alias.ca '!git add -A && git commit -m'
+git config --global alias.ac '!git add -A && git commit -m'
 ```
 ### push current branch to remote
 ```
