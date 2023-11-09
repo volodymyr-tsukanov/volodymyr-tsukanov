@@ -77,7 +77,7 @@ git config --global alias.pmc 'push -u morig HEAD'
 it is possible to use only `git push` after `git pmc`
 
 ## Get updates from remote
-### Pull
+### Pull (no merge commit)
 ```
 git pull morig <branch-to-pull>
 ```
@@ -85,6 +85,11 @@ git pull morig <branch-to-pull>
 ```
 git fetch morig
 git merge morig/<branch>
+```
+### Fetch & pull (on current branch, no merge commit)
+```
+git fetch morig
+git pull
 ```
 ### Switch to remote branch (after `git fetch`)
 ```
