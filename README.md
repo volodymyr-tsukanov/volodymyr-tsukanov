@@ -68,17 +68,13 @@ git config --global credential.helper ""
 ```
 git config --global alias.ac '!git add -A && git commit -m'
 ```
-### push current branch to remote
+### push to remote
 ```
 git config --global alias.pmc 'push -u morig HEAD'
 ```
 it is possible to use only `git push` after `git pmc`
 
 ## Get updates from remote
-### Pull (no merge commit)
-```
-git pull morig <branch-to-pull>
-```
 ### Fetch & merge (leaves merge commit)
 ```
 git fetch morig
@@ -89,7 +85,7 @@ git merge morig/<branch>
 git fetch morig
 git pull
 ```
-### Switch to remote branch (after `git fetch`)
+### Switch to remote branch (after `git fetch`, if no local branch)
 ```
 git switch --track morig/<branch>
 // or
@@ -148,7 +144,7 @@ git stash list
 git apply <index>
 ```
 
-## Commit history
+## Commit history (log)
 ### See commit history for current branch
 ```
 git log --oneline --graph
