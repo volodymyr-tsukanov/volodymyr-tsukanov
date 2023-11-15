@@ -75,7 +75,7 @@ git config --global alias.pmc 'push -u morig HEAD'
 it is possible to use only `git push` after `git pmc`
 ### pretty log
 ```
-git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+git config --global alias.log-p 'git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit'
 ```
 
 ## Get updates from remote
