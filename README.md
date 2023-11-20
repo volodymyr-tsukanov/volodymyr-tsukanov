@@ -159,7 +159,7 @@ git log --oneline --graph
 ```
 git revert HEAD~<n>..HEAD
 ```
-### Revert specified commit (by it`s hash)
+### Revert to specified commit (by it`s hash; deletes everything after that commit)
 ```
 git revert <commit-hash>
 ```
