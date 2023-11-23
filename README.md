@@ -159,18 +159,20 @@ git apply <index>
 1. Switch to branch that will contain merged data from two branches - `<target-branch>`
 2. Select second branch using `git merge <second-branch>`
 3. Resolve any conflicts (if have any)
-4. Commit changes using `git add -A && git commit -m '<commit-message>'`
+4. Commit changes using `git add -A && git commit -m <commit-message>`
 
 ### Squash
 ```
+tt
 ```
+
 ### Cherry pick
 1. Switch to branch that contains `<target-commit>` and copy `<commit-hash>` using it's `git log`
 2. Switch to `<target-branch>`
-3. Run command `git cherry-pick <commit-hash>` and resolve any conflicts
+3. Run command `git cherry-pick <commit-hash>` and resolve any conflicts (and add it using `git add file`)
 4. Apply changes `git cherry-pick --continue`
-> [!NOTE]
-> Use `git cherry-pick --abort` to abort operation
+
+*Tip:* Use `git cherry-pick --abort` to abort operation
 
 ## Revert
 ### Revert last n commits
@@ -225,8 +227,8 @@ git branch --set-upstream-to=morig/<branch>
 ```
 
 # README.md template:
-# <repo-name>
-<programming-language>, <IDE>;<description></br></br>
+# repo-name
+programming-language, IDE; description</br></br>
 
 
 Shield: [![CC BY-NC 4.0][cc-by-nc-shield]][cc-by-nc]
