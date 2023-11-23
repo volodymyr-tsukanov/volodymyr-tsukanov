@@ -73,10 +73,6 @@ git config --global alias.ac '!git add -A && git commit -m'
 git config --global alias.pmc 'push -u morig HEAD'
 ```
 it is possible to use only `git push` after `git pmc`
-### pretty log
-```
-git config --global alias.log-p 'git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit'
-```
 
 ## Get updates from remote
 ### Fetch & merge (leaves merge commit)
@@ -131,6 +127,16 @@ git branch -m <old-branch> <new-branch>
 git branch -d <branch-to-delete>
 ```
 
+## Commit history (log)
+### See commit history for current branch
+```
+git log --oneline --graph
+```
+### Custom `git log`
+```
+git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+```
+
 ## Traveling in time
 ### Checkout commit by hash from `git log`
 ```
@@ -148,11 +154,23 @@ git stash list
 git apply <index>
 ```
 
-## Commit history (log)
-### See commit history for current branch
+## Merge & Squash
+### Merge
+1. Switch to branch that will contain merged data from two branches - `<target-branch>`
+2. Select second branch using `git merge <second-branch>`
+3. Resolve any conflicts (if have any)
+4. Commit changes using `git add -A && git commit -m '<commit-message>'`
+
+### Squash
 ```
-git log --oneline --graph
 ```
+### Cherry pick
+1. Switch to branch that contains `<target-commit>` and copy `<commit-hash>` using it's `git log`
+2. Switch to `<target-branch>`
+3. Run command `git cherry-pick <commit-hash>` and resolve any conflicts
+4. Apply changes `git cherry-pick --continue`
+> [!NOTE]
+> Use `git cherry-pick --abort` to abort operation
 
 ## Revert
 ### Revert last n commits
