@@ -176,6 +176,7 @@ tt
 
 ### Mergetool
 - Insert/edit `I | O`
+- Apply changes from HEAD `:diffget 1`
 - Undo `U`
 - Write changes `:w`
 - Quit `:qa`
