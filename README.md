@@ -158,8 +158,8 @@ git apply <index>
 ### Merge
 1. Switch to branch that will contain merged data from two branches - `<target-branch>`
 2. Select second branch using `git merge <second-branch>`
-3. Resolve any conflicts (if have any)
-4. Commit changes using `git add -A && git commit -m <commit-message>`
+3. Resolve any conflicts (if have any) using `git mergetool`
+4. Commit changes using `git commit`
 
 ### Squash
 ```
@@ -173,6 +173,11 @@ tt
 4. Apply changes `git cherry-pick --continue`
 
 *Tip:* Use `git cherry-pick --abort` to abort operation
+
+### Mergetool
+- Edit `E`
+- Write changes `:w`
+- Quit `:qa`
 
 ## Revert
 ### Revert last n commits
