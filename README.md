@@ -175,7 +175,8 @@ tt
 *Tip:* Use `git cherry-pick --abort` to abort operation
 
 ### Mergetool
-- Edit `E`
+- Insert/edit `I | O`
+- Undo `U`
 - Write changes `:w`
 - Quit `:qa`
 
