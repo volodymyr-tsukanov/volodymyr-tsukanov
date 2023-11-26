@@ -181,6 +181,24 @@ tt
 - Write changes `:w`
 - Quit `:qa`
 
+## Restore
+### Restore file/folder
+```
+git restore <file>
+// or
+git restore <file-1> <file-2> <file-n>
+```
+### Remove from staged
+```
+git restore --staged <file>
+// or
+git restore -S <file>
+```
+### Restore from staged and worktree
+```
+git restore -S -W <file>
+```
+
 ## Revert
 ### Revert last n commits
 ```
