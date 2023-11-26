@@ -163,7 +163,7 @@ git apply <index>
 
 ### Squash
 ```
-tt
+git merge --squash
 ```
 
 ### Cherry pick
