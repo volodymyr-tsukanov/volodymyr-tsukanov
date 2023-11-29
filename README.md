@@ -174,7 +174,7 @@ git merge --squash
 
 *Tip:* Use `git cherry-pick --abort` to abort operation
 
-### Mergetool
+### Vim difftool
 - Insert/edit `I | O`
 - Apply changes from HEAD `:diffget 1`
 - Undo `U`
