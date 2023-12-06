@@ -220,7 +220,7 @@ git reset --hard HEAD^
 ```
 git reset --hard HEAD~<n>
 ```
-### Delete specified commit (by it`s hash)
+### Delete all commits after specified commit (sets that commit as HEAD)
 ```
 git reset --hard <commit-hash>
 ```
