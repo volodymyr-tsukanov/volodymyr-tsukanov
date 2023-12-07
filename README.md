@@ -91,6 +91,10 @@ git switch --track morig/<branch>
 // or
 git checkout --track morig/<branch>
 ```
+### Pull to specified branch
+```
+git checkout -b <new-local-branch> morig/<remote-branch>
+```
 
 ## Push to remote
 ```
