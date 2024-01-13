@@ -1,4 +1,4 @@
-<h1 align="center">Hello everyone! <img src="" width="28px" alt="👋"></h1>
+<h1 align="center">Hello everyone! 👋</h1>
 
 <p align="center">
     <b>Welcome to my page!</b><br><br>
@@ -271,8 +271,17 @@ Shield: [![CC BY-NC 4.0][cc-by-nc-shield]][cc-by-nc]
 </details>
 
 <details>
+<summary>Statistics</summary>
+    
+## Stats
+
+- Readme-stats ![Readme-stats](https://github-readme-stats.vercel.app/api?username=volodymyr-tsukanov&show_icons=true&theme=tokyonight)
+</details>
+
+<details>
 <summary>Other</summary>
-<h4 align="left">Default stuff<br></h4>
+    
+## Default stuff
   
 - 👋 Hi, I’m @volodymyr-tsukanov
 - 👀 I’m interested in ...
