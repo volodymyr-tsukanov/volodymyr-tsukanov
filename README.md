@@ -14,12 +14,13 @@
 [![C#](https://img.shields.io/badge/c%23-393646?style=for-the-badge&logo=csharp)](https://github.com/volodymyr-tsukanov)
 [![DotNet](https://img.shields.io/badge/dotNet-393646?style=for-the-badge&logo=dotnet)](https://github.com/volodymyr-tsukanov)
 [![C++](https://img.shields.io/badge/c++-393646?style=for-the-badge&logo=cplusplus)](https://github.com/volodymyr-tsukanov/virtual-ekosystem)
-[![C](https://img.shields.io/badge/c-393646?style=for-the-badge&logo=c)](https://github.com/volodymyr-tsukanov)
+[![C](https://img.shields.io/badge/c-393646?style=for-the-badge&logo=c)](https://github.com/volodymyr-tsukanov/NList)
 [![Python](https://img.shields.io/badge/python-393646?style=for-the-badge&logo=python)](https://github.com/volodymyr-tsukanov)
+[![JavaScript](https://img.shields.io/badge/java%20script-393646?style=for-the-badge&logo=javascript)](https://github.com/volodymyr-tsukanov)
 [![Php](https://img.shields.io/badge/php-393646?style=for-the-badge&logo=php)](https://github.com/volodymyr-tsukanov)
 
-[![HTML](https://img.shields.io/badge/html-393646?style=for-the-badge&logo=html5)](https://github.com/volodymyr-tsukanov)
-[![CSS](https://img.shields.io/badge/css-393646?style=for-the-badge&logo=css3)](https://github.com/volodymyr-tsukanov)
+[![HTML](https://img.shields.io/badge/html-393646?style=for-the-badge&logo=html5)](https://github.com/volodymyr-tsukanov/poai-html-1)
+[![CSS](https://img.shields.io/badge/css-393646?style=for-the-badge&logo=css3)](https://github.com/volodymyr-tsukanov/poai-html-1)
 [![SQL](https://img.shields.io/badge/SQL-393646?style=for-the-badge&logo=postgresql)](https://github.com/volodymyr-tsukanov/bazy-danych-project-apple)
 
 [![Bash](https://img.shields.io/badge/bash-393646?style=for-the-badge&logo=gnu-bash&logoColor=white)](https://github.com/volodymyr-tsukanov)
