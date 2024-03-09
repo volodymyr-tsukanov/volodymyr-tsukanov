@@ -10,7 +10,7 @@
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-393646?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/volodymyr-tsukanov-4b624a299)
 
 ### Languages
-[![Java](https://img.shields.io/badge/java-393646?style=for-the-badge&logo=openjdk)](https://github.com/volodymyr-tsukanov)
+[![Java](https://img.shields.io/badge/java-393646?style=for-the-badge&logo=openjdk)](https://github.com/volodymyr-tsukanov/telephone-book)
 [![C#](https://img.shields.io/badge/c%23-393646?style=for-the-badge&logo=csharp)](https://github.com/volodymyr-tsukanov)
 [![DotNet](https://img.shields.io/badge/dotNet-393646?style=for-the-badge&logo=dotnet)](https://github.com/volodymyr-tsukanov)
 [![C++](https://img.shields.io/badge/c++-393646?style=for-the-badge&logo=cplusplus)](https://github.com/volodymyr-tsukanov/virtual-ekosystem)
