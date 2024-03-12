@@ -16,7 +16,7 @@
 [![C++](https://img.shields.io/badge/c++-393646?style=for-the-badge&logo=cplusplus)](https://github.com/volodymyr-tsukanov/virtual-ekosystem)
 [![C](https://img.shields.io/badge/c-393646?style=for-the-badge&logo=c)](https://github.com/volodymyr-tsukanov/NList)
 [![Python](https://img.shields.io/badge/python-393646?style=for-the-badge&logo=python)](https://github.com/volodymyr-tsukanov)
-[![JavaScript](https://img.shields.io/badge/java%20script-393646?style=for-the-badge&logo=javascript)](https://github.com/volodymyr-tsukanov)
+[![JavaScript](https://img.shields.io/badge/java%20script-393646?style=for-the-badge&logo=javascript)](https://github.com/volodymyr-tsukanov/poai-html-1)
 [![Php](https://img.shields.io/badge/php-393646?style=for-the-badge&logo=php)](https://github.com/volodymyr-tsukanov)
 
 [![HTML](https://img.shields.io/badge/html-393646?style=for-the-badge&logo=html5)](https://github.com/volodymyr-tsukanov/poai-html-1)
