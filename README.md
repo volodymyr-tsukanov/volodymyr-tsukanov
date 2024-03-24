@@ -156,7 +156,7 @@ git stash save <save-name>
 ### Load
 ```
 git stash list
-git apply <index>
+git stash apply <index>
 ```
 
 ## Merge & Squash
