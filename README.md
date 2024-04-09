@@ -74,6 +74,10 @@ git config --global alias.ac '!git add -A && git commit -m'
 git config --global alias.pmc 'push -u morig HEAD'
 ```
 it is possible to use only `git push` after `git pmc`
+### default text editor
+```
+git config --global core.editor "'<editor-path>' -multiInst -notabbar -nosession -noPlugin"
+```
 
 ## Get updates from remote
 ### Fetch & merge (leaves merge commit)
