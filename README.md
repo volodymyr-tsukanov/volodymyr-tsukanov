@@ -63,11 +63,19 @@
 ```
 git config --global credential.helper ""
 ```
+### Sign commits (on trusted devices)
+```
+git config commit.gpgsign true
+```
 
 ## Aliases
 ### add & commit
 ```
 git config --global alias.ac '!git add -A && git commit -m'
+```
+### add & sign & commit
+```
+git config --global alias.acs '!git add -A && git commit -S -m'
 ```
 ### push to remote
 ```
