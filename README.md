@@ -65,6 +65,7 @@ git config --global credential.helper ""
 ```
 ### Sign commits (on trusted devices)
 ```
+git config user.signingkey <gpg-key-id>
 git config commit.gpgsign true
 ```
 
@@ -284,7 +285,7 @@ Shield: [![CC BY-NC 4.0][cc-by-nc-shield]][cc-by-nc]
 <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International License</a>.
 ```
 
-# GPG
+# GPG keys
 ```
 gpg --full-generate-key
 gpg --list-secret-keys --keyid-format=long
