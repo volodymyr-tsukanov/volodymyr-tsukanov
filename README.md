@@ -288,8 +288,9 @@ Shield: [![CC BY-NC 4.0][cc-by-nc-shield]][cc-by-nc]
 # GPG keys
 ```
 gpg --full-generate-key
-gpg --list-secret-keys --keyid-format=long
-gpg --armor --export <sec-id> (only symbols after /)
+gpg --list-secret-keys --keyid-format=long  //-> sec-id
+gpg --armor --export <sec-id> (only symbols after /)  //-> public
+gpg --armor --export-secret-keys <sec-id>  //-> private
 ```
 </details>
 
