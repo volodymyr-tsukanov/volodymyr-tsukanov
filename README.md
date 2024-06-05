@@ -286,11 +286,22 @@ Shield: [![CC BY-NC 4.0][cc-by-nc-shield]][cc-by-nc]
 ```
 
 # GPG keys
+## Creating new key
 ```
 gpg --full-generate-key
+```
+## Get all keys
+```
 gpg --list-secret-keys --keyid-format=long  //-> sec-id
+```
+## Export keys
+```
 gpg --armor --export <sec-id> (only symbols after /)  //-> public
 gpg --armor --export-secret-keys <sec-id>  //-> private
+```
+## Import keys
+```
+gpg --import <key>
 ```
 </details>
 
