@@ -92,6 +92,16 @@ it is possible to use only `git push` after `git pmc`
 git config --global core.editor "'<editor-path>' -multiInst -notabbar -nosession -noPlugin"
 ```
 
+## Clone remote repository
+### Single branch
+```
+git clone --branch <branch> --single-branch <repository-url>
+```
+### Last commit
+```
+git clone --depth 1 --branch <branch> <repository-url>
+```
+
 ## Get updates from remote
 ### Fetch & merge (leaves merge commit)
 ```
@@ -122,10 +132,6 @@ git push morig <branch>
 ```
 
 ## Branches
-### Clone single branch
-```
-git clone --branch <branch> --single-branch <repository-url>
-```
 ### New branch from current branch
 ```
 git branch <new-branch>
