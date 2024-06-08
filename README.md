@@ -59,14 +59,18 @@
 <summary>Git shortcuts</summary>
 
 ## Setup
+### Update Git
+```
+git update-git-for-windows    // or 'git update'
+```
 ### Protect sensitive data from being stored
 ```
 git config --global credential.helper ""
 ```
-### Sign commits (on trusted devices)
+### Sign commits with GPG (on trusted devices only)
 ```
-git config user.signingkey <gpg-key-id>
-git config commit.gpgsign true
+git config user.signingkey <gpg-sec-id>
+git config commit.gpgsign true    // optional
 ```
 
 ## Aliases
@@ -118,6 +122,10 @@ git push morig <branch>
 ```
 
 ## Branches
+### Clone single branch
+```
+git clone --branch <branch> --single-branch <repository-url>
+```
 ### New branch from current branch
 ```
 git branch <new-branch>
@@ -292,16 +300,16 @@ gpg --full-generate-key
 ```
 ## Get all keys
 ```
-gpg --list-secret-keys --keyid-format=long  //-> sec-id
+gpg --list-secret-keys --keyid-format=long  //--> gpg-sec-id
 ```
 ## Export keys
 ```
-gpg --armor --export <sec-id> (only symbols after /)  //-> public
-gpg --armor --export-secret-keys <sec-id>  //-> private
+gpg --armor --export <gpg-sec-id> (only symbols after /)  //--> public
+gpg --armor --export-secret-keys <gpg-sec-id>  //--> private
 ```
 ## Import keys
 ```
-gpg --import <key>
+gpg --import <gpg-key>
 ```
 </details>
 
