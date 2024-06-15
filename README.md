@@ -44,6 +44,8 @@
 [![Unreal](https://img.shields.io/badge/Unreal-393646?style=for-the-badge&logo=unrealengine)](https://github.com/volodymyr-tsukanov)
 [![GameMaker](https://img.shields.io/badge/GameMaker-393646?style=for-the-badge&logo=gamemaker)](https://github.com/volodymyr-tsukanov)
 
+[![Blender](https://img.shields.io/badge/Blender-393646?style=for-the-badge&logo=blender)](https://github.com/volodymyr-tsukanov/pogk-project2)
+
 [![Git](https://img.shields.io/badge/Git-393646?style=for-the-badge&logo=git)](https://github.com/volodymyr-tsukanov)
 
 
