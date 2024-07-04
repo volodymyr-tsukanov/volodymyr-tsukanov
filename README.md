@@ -93,6 +93,17 @@ it is possible to use only `git push` after `git pmc`
 ```
 git config --global core.editor "'<editor-path>' -multiInst -notabbar -nosession -noPlugin"
 ```
+### custom mergetool
+`git config --global --edit`
+add next lines
+```
+[merge]
+tool = meld
+[mergetool "meld"]
+cmd = meld "$LOCAL" "$MERGED" "$REMOTE" --output "$MERGED"
+```
+add path
+`git config --global mergetool.meld.path "<meld-path>"`
 
 ## Clone remote repository
 ### Single branch
