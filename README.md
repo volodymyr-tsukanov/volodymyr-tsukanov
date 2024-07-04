@@ -95,15 +95,21 @@ git config --global core.editor "'<editor-path>' -multiInst -notabbar -nosession
 ```
 ### custom mergetool
 `git config --global --edit`
-add next lines
 ```
 [merge]
-tool = meld
+	tool = meld
+[mergetool]
+	keepBackup = false
+	keepTemporaries = false
 [mergetool "meld"]
-cmd = meld "$LOCAL" "$MERGED" "$REMOTE" --output "$MERGED"
+	path = D:/<meld-path>/Meld.exe
+[diff]
+	tool = meld
+[difftool]
+	prompt = false
+[difftool "meld"]
+	path = D:/<meld-path>/Meld.exe
 ```
-add path
-`git config --global mergetool.meld.path "<meld-path>"`
 
 ## Clone remote repository
 ### Single branch
