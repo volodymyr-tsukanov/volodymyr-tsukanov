@@ -121,33 +121,42 @@ git clone --branch <branch> --single-branch <repository-url>
 git clone --depth 1 --branch <branch> <repository-url>
 ```
 
-## Get updates from remote
+## Remote
 ### Fetch & merge (leaves merge commit)
 ```
-git fetch morig
-git merge morig/<branch>
+git fetch <remote>
+git merge <remote>/<branch>
 ```
 ### Fetch & pull (on current branch, no merge commit)
 ```
-git fetch morig
+git fetch <remote>
 git pull
+```
+### Fetch specific branch
+```
+git fetch <remote> <branch1> <branch2>
+```
+### Remote fetch options (branches)
+```
+git remote show <remote>
+git remote set-branches <remote> <branch>
 ```
 ### Switch to remote branch (after `git fetch`, if no local branch)
 ```
-git switch --track morig/<branch>
+git switch --track <remote>/<branch>
 // or
-git checkout --track morig/<branch>
+git checkout --track <remote>/<branch>
 ```
 ### Pull to specified branch
 ```
-git checkout -b <new-local-branch> morig/<remote-branch>
+git checkout -b <new-local-branch> <remote>/<remote-branch>
 ```
 
 ## Push to remote
 ```
 git add .
 git commit -m 'msg'
-git push morig <branch>
+git push <remote> <branch>
 ```
 
 ## Branches
@@ -283,17 +292,17 @@ git rebase -i HEAD~<n>
 ```
 ### Force push to apply changes
 ```
-git push morig <branch> --force
+git push <remote> <branch> --force
 ```
 
-## Change branch tracking remote to morig
+## Change branch tracking remote
 ### Shows info about tracking remote (for current branch)
 ```
 git branch -vv
 ```
 ### Alternative to `git switch --track` (when branch is alredy exists)
 ```
-git branch --set-upstream-to=morig/<branch>
+git branch --set-upstream-to=<remote>/<branch>
 ```
 
 # .gitignore
