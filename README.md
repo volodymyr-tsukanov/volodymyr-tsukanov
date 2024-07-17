@@ -186,6 +186,10 @@ git branch -m <old-branch> <new-branch>
 ```
 git branch -d <branch-to-delete>
 ```
+### Get last commit hash
+```
+git rev-parse --short <branch>
+```
 
 ## Commit history (log)
 ### See commit history for current branch
