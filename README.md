@@ -52,7 +52,7 @@
 ### OS
 [![Android](https://img.shields.io/badge/Android-393646?style=for-the-badge&logo=android)](https://github.com/volodymyr-tsukanov)
 [![Windows](https://img.shields.io/badge/Windows-393646?style=for-the-badge&logo=Windows)](https://github.com/volodymyr-tsukanov)
-[![Linux](https://img.shields.io/badge/Linux-393646?style=for-the-badge&logo=kalilinux)](https://github.com/volodymyr-tsukanov)
+[![Linux](https://img.shields.io/badge/Linux-393646?style=for-the-badge&logo=ubuntu)](https://github.com/volodymyr-tsukanov)
 [![Mac](https://img.shields.io/badge/Mac-393646?style=for-the-badge&logo=macos)](https://github.com/volodymyr-tsukanov)
 </br></br>
 
