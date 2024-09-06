@@ -63,7 +63,7 @@
 ## Setup
 ### Update Git
 ```
-git update-git-for-windows    // or 'git update'
+git update-git-for-windows    # or 'git update'
 ```
 ### Protect sensitive data from being stored
 ```
@@ -72,7 +72,7 @@ git config --global credential.helper ""
 ### Sign commits with GPG (on trusted devices only)
 ```
 git config user.signingkey <gpg-sec-id>
-git config commit.gpgsign true    // optional
+git config commit.gpgsign true    # optional
 ```
 
 ## Aliases
@@ -144,7 +144,7 @@ git remote set-branches <remote> <branch>
 ### Switch to remote branch (after `git fetch`, if no local branch)
 ```
 git switch --track <remote>/<branch>
-// or
+# or
 git checkout --track <remote>/<branch>
 ```
 ### Pull to specified branch
@@ -163,15 +163,15 @@ git push <remote> <branch>
 ### New branch from current branch
 ```
 git branch <new-branch>
-// or
+# or
 git switch -c <new-branch>
-// or
+# or
 git checkout -b <new-branch>
 ```
 ### Switch branch
 ```
 git switch <branch>
-// or
+# or
 git checkout <branch>
 ```
 ### Switch to previous branch (discard changes made with `git checkout <commit>` and not saved with `git switch -c`)
@@ -249,7 +249,7 @@ git merge --squash
 ### Restore file/folder
 ```
 git restore <file>
-// or
+# or
 git restore <file-1> <file-2> <file-n>
 ```
 ### Restore file/folder from commit by it's hash
@@ -291,7 +291,7 @@ git reset --hard <commit-hash>
 ### Choose specific commit to delete from n last commits (opens text editor)
 ```
 git rebase
-// or
+# or
 git rebase -i HEAD~<n>
 ```
 ### Force push to apply changes
@@ -338,12 +338,12 @@ gpg --full-generate-key
 ```
 ## Get all keys
 ```
-gpg --list-secret-keys --keyid-format=long  //--> gpg-sec-id
+gpg --list-secret-keys --keyid-format=long  #--> gpg-sec-id
 ```
 ## Export keys
 ```
-gpg --armor --export <gpg-sec-id> (only symbols after /)  //--> public
-gpg --armor --export-secret-keys <gpg-sec-id>  //--> private
+gpg --armor --export <gpg-sec-id> (only symbols after /)  #--> public
+gpg --armor --export-secret-keys <gpg-sec-id>  #--> private
 ```
 ## Import keys
 ```
