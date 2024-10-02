@@ -28,7 +28,7 @@
 
 
 ### IDE & Software
-[![VisualStudio](https://img.shields.io/badge/Visual%20Studio-393646?style=for-the-badge&logo=visualstudio&logoColor=blue)](https://github.com/volodymyr-tsukanov/poai-project)
+[![VisualStudioCode](https://img.shields.io/badge/Visual%20Studio-393646?style=for-the-badge&logo=visualstudio&logoColor=blue)](https://github.com/volodymyr-tsukanov/poai-project)
 [![IntelliJIDEA](https://img.shields.io/badge/Intellij%20Idea-393646?style=for-the-badge&logo=intellijidea&logoColor=violet)](https://github.com/volodymyr-tsukanov)
 [![AndroidStudio](https://img.shields.io/badge/Android%20Studio-393646?style=for-the-badge&logo=androidstudio)](https://github.com/volodymyr-tsukanov)
 [![SQLDeveloper](https://img.shields.io/badge/Oracle%20SQL%20Developer-393646?style=for-the-badge&logo=oracle)](https://github.com/volodymyr-tsukanov/bazy-danych-project-apple)
@@ -45,6 +45,7 @@
 [![GameMaker](https://img.shields.io/badge/GameMaker-393646?style=for-the-badge&logo=gamemaker)](https://github.com/volodymyr-tsukanov)
 
 [![Blender](https://img.shields.io/badge/Blender-393646?style=for-the-badge&logo=blender)](https://github.com/volodymyr-tsukanov/pogk-project2)
+[![DavinciResolve](https://img.shields.io/badge/Davinci%20Resolve-393646?style=for-the-badge&logo=davinci%20resolve)](https://github.com/volodymyr-tsukanov)
 
 [![Git](https://img.shields.io/badge/Git-393646?style=for-the-badge&logo=git)](https://github.com/volodymyr-tsukanov)
 
@@ -308,6 +309,13 @@ git branch -vv
 ```
 git branch --set-upstream-to=<remote>/<branch>
 ```
+
+## Cleanup
+```
+git gc
+```
+(or `git prune` and `git repack`)
+
 
 # .gitignore
 ```
