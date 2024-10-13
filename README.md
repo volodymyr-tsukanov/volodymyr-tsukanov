@@ -89,7 +89,11 @@ git config --global alias.acs '!git add -A && git commit -S -m'
 ```
 git config --global alias.pmc 'push -u morig HEAD'
 ```
-it is possible to use only `git push` after `git pmc`
+it is possible to use `git push` after `git pmc`
+### fetch & pull
+```
+git config --global alias.fpull '!git fetch morig && git pull'
+```
 ### default text editor
 ```
 git config --global core.editor "'<editor-path>' -multiInst -notabbar -nosession -noPlugin"
