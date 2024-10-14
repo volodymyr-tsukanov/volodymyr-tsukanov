@@ -3,6 +3,7 @@
 <p align="center">
     <b>Welcome to my page!</b><br><br>
     <i>I'm Volodymyr<br></i><br>
+    try on - click any badge
 </p>
 
 
@@ -11,16 +12,16 @@
 
 ### Languages
 [![Java](https://img.shields.io/badge/java-393646?style=for-the-badge&logo=openjdk)](https://github.com/volodymyr-tsukanov/telephone-book)
-[![C#](https://img.shields.io/badge/c%23-393646?style=for-the-badge&logo=csharp)](https://github.com/volodymyr-tsukanov)
+[![C#](https://img.shields.io/badge/c%23-393646?style=for-the-badge&logo=csharp)](https://github.com/volodymyr-tsukanov/code-crypt)
 [![DotNet](https://img.shields.io/badge/dotNet-393646?style=for-the-badge&logo=dotnet)](https://github.com/volodymyr-tsukanov)
-[![C++](https://img.shields.io/badge/c++-393646?style=for-the-badge&logo=cplusplus)](https://github.com/volodymyr-tsukanov/virtual-ekosystem)
+[![C++](https://img.shields.io/badge/c++-393646?style=for-the-badge&logo=cplusplus)](https://github.com/volodymyr-tsukanov/zpo-cpp)
 [![C](https://img.shields.io/badge/c-393646?style=for-the-badge&logo=c)](https://github.com/volodymyr-tsukanov/NList)
-[![Python](https://img.shields.io/badge/python-393646?style=for-the-badge&logo=python)](https://github.com/volodymyr-tsukanov)
+[![Python](https://img.shields.io/badge/python-393646?style=for-the-badge&logo=python)](https://github.com/volodymyr-tsukanov/posi-py)
 [![JavaScript](https://img.shields.io/badge/java%20script-393646?style=for-the-badge&logo=javascript)](https://github.com/volodymyr-tsukanov/poai-html-1)
-[![Php](https://img.shields.io/badge/php-393646?style=for-the-badge&logo=php)](https://github.com/volodymyr-tsukanov)
+[![Php](https://img.shields.io/badge/php-393646?style=for-the-badge&logo=php)](https://github.com/volodymyr-tsukanov/prai)
 
-[![HTML](https://img.shields.io/badge/html-393646?style=for-the-badge&logo=html5)](https://github.com/volodymyr-tsukanov/poai-html-1)
-[![CSS](https://img.shields.io/badge/css-393646?style=for-the-badge&logo=css3)](https://github.com/volodymyr-tsukanov/poai-html-1)
+[![HTML](https://img.shields.io/badge/html-393646?style=for-the-badge&logo=html5)](https://github.com/volodymyr-tsukanov/poai-project)
+[![CSS](https://img.shields.io/badge/css-393646?style=for-the-badge&logo=css3)](https://github.com/volodymyr-tsukanov/poai-project)
 [![SQL](https://img.shields.io/badge/SQL-393646?style=for-the-badge&logo=postgresql)](https://github.com/volodymyr-tsukanov/bazy-danych-project-apple)
 
 [![Bash](https://img.shields.io/badge/bash-393646?style=for-the-badge&logo=gnu-bash&logoColor=white)](https://github.com/volodymyr-tsukanov)
@@ -37,11 +38,11 @@
 [![Eclipse](https://img.shields.io/badge/Eclipse-393646?style=for-the-badge&logo=eclipseide)](https://github.com/volodymyr-tsukanov)
 
 [![CodeBlocks](https://img.shields.io/badge/CodeBlocks-393646?style=for-the-badge&logo=codeblocks)](https://github.com/volodymyr-tsukanov/NList)
-[![MonoDevelop](https://img.shields.io/badge/MonoDevelop-393646?style=for-the-badge&logo=monodevelop)](https://github.com/volodymyr-tsukanov)
+[![MonoDevelop](https://img.shields.io/badge/MonoDevelop-393646?style=for-the-badge&logo=monodevelop)](https://github.com/volodymyr-tsukanov/code-crypt)
 
 [![Godot](https://img.shields.io/badge/Godot-393646?style=for-the-badge&logo=godotengine)](https://github.com/volodymyr-tsukanov/dorm-keeper)
 [![Unity](https://img.shields.io/badge/Unity-393646?style=for-the-badge&logo=unity)](https://github.com/volodymyr-tsukanov)
-[![Unreal](https://img.shields.io/badge/Unreal-393646?style=for-the-badge&logo=unrealengine)](https://github.com/volodymyr-tsukanov)
+[![Unreal](https://img.shields.io/badge/Unreal-393646?style=for-the-badge&logo=unrealengine)](https://github.com/volodymyr-tsukanov/distant-seas)
 [![GameMaker](https://img.shields.io/badge/GameMaker-393646?style=for-the-badge&logo=gamemaker)](https://github.com/volodymyr-tsukanov)
 
 [![Blender](https://img.shields.io/badge/Blender-393646?style=for-the-badge&logo=blender)](https://github.com/volodymyr-tsukanov/pogk-project2)
