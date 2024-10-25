@@ -53,8 +53,8 @@
 
 ### OS
 [![Android](https://img.shields.io/badge/Android-393646?style=for-the-badge&logo=android)](https://github.com/volodymyr-tsukanov)
-[![Windows](https://img.shields.io/badge/Windows-393646?style=for-the-badge&logo=Windows)](https://github.com/volodymyr-tsukanov)
 [![Linux](https://img.shields.io/badge/Linux-393646?style=for-the-badge&logo=ubuntu)](https://github.com/volodymyr-tsukanov)
+[![Windows](https://img.shields.io/badge/Windows-393646?style=for-the-badge&logo=Windows)](https://github.com/volodymyr-tsukanov)
 [![Mac](https://img.shields.io/badge/Mac-393646?style=for-the-badge&logo=macos)](https://github.com/volodymyr-tsukanov)
 </br></br>
 
@@ -77,23 +77,28 @@ git config user.signingkey <gpg-sec-id>
 git config commit.gpgsign true    # optional
 ```
 
-## Aliases
-### add & commit
+## Config
+### Aliases
+#### add & commit
 ```
 git config --global alias.ac '!git add -A && git commit -m'
 ```
-### add & sign & commit
+#### add & sign & commit
 ```
 git config --global alias.acs '!git add -A && git commit -S -m'
 ```
-### push to remote & set to track
+#### push to remote & set to track
 ```
 git config --global alias.pmc 'push -u morig HEAD'
 ```
 it is possible to use `git push` after `git pmc`
-### fetch & pull
+#### fetch & pull
 ```
 git config --global alias.fpull '!git fetch morig && git pull'
+```
+#### log
+```
+git config --global alias.loq 'log --graph --pretty=format:"%C(italic red)%h%Creset %C(yellow)<--%Creset%C(bold reverse red)%d%Creset %C(white)%s%Creset %C(bold cyan)<%an>%Creset%C(magenta)(%cd)%Creset" --date=format:"%d/%m/%Y %H:%M"'
 ```
 ### default text editor
 ```
