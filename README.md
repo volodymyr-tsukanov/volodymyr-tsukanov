@@ -86,7 +86,7 @@ git config --global alias.ac '!git add -A && git commit -m'
 ```
 git config --global alias.acs '!git add -A && git commit -S -m'
 ```
-### push to remote
+### push to remote & set to track
 ```
 git config --global alias.pmc 'push -u morig HEAD'
 ```
@@ -157,12 +157,22 @@ git checkout --track <remote>/<branch>
 ```
 git checkout -b <new-local-branch> <remote>/<remote-branch>
 ```
-
-## Push to remote
+### Push to remote
 ```
 git add .
 git commit -m 'msg'
 git push <remote> <branch>
+```
+### Local remote
+#### Bare repo (server)
+```
+mkdir <repo-name>.git
+cd <repo-name>.git
+git init --bare
+```
+#### Client
+```
+git remote add lorig <path-to-bare-repo>
 ```
 
 ## Branches
