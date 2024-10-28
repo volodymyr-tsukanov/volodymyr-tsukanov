@@ -217,10 +217,6 @@ git rev-parse --short <branch>
 ```
 git log --oneline --graph
 ```
-### Custom `git log`
-```
-git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
-```
 
 ## Traveling in time
 ### Checkout commit by hash from `git log`
