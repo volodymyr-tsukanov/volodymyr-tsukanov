@@ -346,19 +346,43 @@ git gc
 # repo-name
 programming-language, IDE; description</br></br>
 
-
-Shield: [![CC BY-NC 4.0][cc-by-nc-shield]][cc-by-nc]
+<!--CC BY NC--> 
+Shields: [![CC BY-NC 4.0][cc-by-nc-shield]][cc-by-nc]
 
 [cc-by-nc]: http://creativecommons.org/licenses/by-nc/4.0/
 [cc-by-nc-shield]: https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg
 
 <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International License</a>.
+
+<!-- GPL v3.0 -->
+Shields: [![GPL-3.0][gpl3-shield]][gpl3]
+
+[gpl3]: https://www.gnu.org/licenses/gpl-3.0.html
+[gpl3-shield]: https://img.shields.io/badge/License-GPL%20v3-blue.svg
+
+<a rel="license" href="https://www.gnu.org/licenses/gpl-3.0.html"><img alt="GNU General Public License" height=47px style="border-width:0" src="https://www.gnu.org/graphics/gplv3-127x51.png" /></a><br />This work is licensed under the <a rel="license" href="https://www.gnu.org/licenses/gpl-3.0.html">GNU General Public License v3.0</a>.
+
+<!-- EPL -->
+Shields: [![EPL-2.0][epl2-shield]][epl2]
+
+[epl2]: https://www.eclipse.org/legal/epl-2.0/
+[epl2-shield]: https://img.shields.io/badge/License-EPL%202.0-lightgrey.svg
+
+<a rel="license" href="https://www.eclipse.org/legal/epl-2.0/"><img alt="Eclipse Public License" height=47px style="border-width:0" src="https://www.eclipse.org/eclipse.org-common/themes/solstice/public/images/logo/eclipse-foundation-grey-orange.svg" /></a><br />This work is licensed under the <a rel="license" href="https://www.eclipse.org/legal/epl-2.0/">Eclipse Public License 2.0</a>.
+
+<!-- Apache 2.0 -->
+Shields: [![Apache 2.0][apache-shield]][apache]
+
+[apache]: https://www.apache.org/licenses/LICENSE-2.0
+[apache-shield]: https://img.shields.io/badge/License-Apache%202.0-lightgrey.svg
+
+<a rel="license" href="https://www.apache.org/licenses/LICENSE-2.0"><img alt="Apache License" height=47px style="border-width:0" src="https://www.apache.org/img/asf-estd-1999-logo.jpg" /></a><br />This work is licensed under the <a rel="license" href="https://www.apache.org/licenses/LICENSE-2.0">Apache License 2.0</a>.
 ```
 
 # Licenses
 ## code
   - GNU General Public License v3.0 (GPL-3.0)
-  - Eclipse Public License 2.0
+  - Eclipse Public License 2.0 (EPL)
   - Apache License 2.0
 
 ## non-code (art, etc)
