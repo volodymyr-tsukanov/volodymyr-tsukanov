@@ -377,6 +377,14 @@ Shields: [![Apache 2.0][apache-shield]][apache]
 [apache-shield]: https://img.shields.io/badge/License-Apache%202.0-lightgrey.svg
 
 <a rel="license" href="https://www.apache.org/licenses/LICENSE-2.0"><img alt="Apache License" height=47px style="border-width:0" src="https://www.apache.org/img/asf-estd-1999-logo.jpg" /></a></br>This work is licensed under the <a rel="license" href="https://www.apache.org/licenses/LICENSE-2.0">Apache License 2.0</a>.
+
+<!-- MIT -->
+Shields: [![MIT License][mit-shield]][mit]
+
+[mit]: https://opensource.org/licenses/MIT
+[mit-shield]: https://img.shields.io/badge/License-MIT-lightgrey.svg
+
+<a rel="license" href="https://opensource.org/licenses/MIT"><img alt="MIT License" height=47px style="border-width:0" src="https://i0.wp.com/opensource.org/wp-content/uploads/2023/03/cropped-OSI-horizontal-large.png" /></a></br>This work is licensed under the <a rel="license" href="https://opensource.org/licenses/MIT">MIT License</a>.
 ```
 
 # Licenses
@@ -384,6 +392,7 @@ Shields: [![Apache 2.0][apache-shield]][apache]
   - GNU General Public License v3.0 (GPL-3.0)
   - Eclipse Public License 2.0 (EPL)
   - Apache License 2.0
+  - MIT
 
 ## non-code (art, etc)
   - Creative Commons Attribution-NonCommercial 4.0 International License (CC-BY-NC)
