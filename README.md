@@ -389,10 +389,14 @@ Shields: [![MIT License][mit-shield]][mit]
 
 # Licenses
 ## code
-  - GNU General Public License v3.0 (GPL-3.0)
-  - Eclipse Public License 2.0 (EPL)
-  - Apache License 2.0
-  - MIT
+  - GNU General Public License v3.0 (GPL-3.0) </br>
+_complex_ ; don`t alter license itself, include copyright notice with program brief description in source files
+  - Eclipse Public License 2.0 (EPL) </br>
+_fast_ ; insert copyright notice at the end of the license
+  - Apache License 2.0 </br>
+_simple_ ; alter end part after `END OF TERMS AND CONDITIONS` inserting copyright notice
+  - MIT </br>
+_fastest_ ; insert copyright notice inside the license
 
 ## non-code (art, etc)
   - Creative Commons Attribution-NonCommercial 4.0 International License (CC-BY-NC)
