@@ -55,7 +55,7 @@
 [![Linux](https://img.shields.io/badge/Linux-393646?style=for-the-badge&logo=ubuntu)](https://github.com/volodymyr-tsukanov)
 [![Windows](https://img.shields.io/badge/Windows-393646?style=for-the-badge&logo=Windows)](https://github.com/volodymyr-tsukanov)
 [![Mac](https://img.shields.io/badge/Mac-393646?style=for-the-badge&logo=macos)](https://github.com/volodymyr-tsukanov)
-</br></br>
+<br><br>
 
 
 <details>
@@ -343,7 +343,7 @@ git gc
 # README.md template:
 ```
 # repo-name
-programming-language, IDE; description</br></br>
+programming-language, IDE; description<br><br>
 
 <!--CC BY NC--> 
 Shields: [![CC BY-NC 4.0][cc-by-nc-shield]][cc-by-nc]
@@ -351,7 +351,7 @@ Shields: [![CC BY-NC 4.0][cc-by-nc-shield]][cc-by-nc]
 [cc-by-nc]: http://creativecommons.org/licenses/by-nc/4.0/
 [cc-by-nc-shield]: https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg
 
-<a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" /></a></br>This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International License</a>.
+<a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" /></a><br>This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International License</a>.
 
 <!-- GPL v3.0 -->
 Shields: [![GPL-3.0][gpl3-shield]][gpl3]
@@ -359,7 +359,7 @@ Shields: [![GPL-3.0][gpl3-shield]][gpl3]
 [gpl3]: https://www.gnu.org/licenses/gpl-3.0.html
 [gpl3-shield]: https://img.shields.io/badge/License-GPL%20v3-blue.svg
 
-<a rel="license" href="https://www.gnu.org/licenses/gpl-3.0.html"><img alt="GNU General Public License" height=47px style="border-width:0" src="https://www.gnu.org/graphics/gplv3-127x51.png" /></a></br>This work is licensed under the <a rel="license" href="https://www.gnu.org/licenses/gpl-3.0.html">GNU General Public License v3.0</a>.
+<a rel="license" href="https://www.gnu.org/licenses/gpl-3.0.html"><img alt="GNU General Public License" height=47px style="border-width:0" src="https://www.gnu.org/graphics/gplv3-127x51.png" /></a><br>This work is licensed under the <a rel="license" href="https://www.gnu.org/licenses/gpl-3.0.html">GNU General Public License v3.0</a>.
 
 <!-- EPL -->
 Shields: [![EPL-2.0][epl2-shield]][epl2]
@@ -367,7 +367,7 @@ Shields: [![EPL-2.0][epl2-shield]][epl2]
 [epl2]: https://www.eclipse.org/legal/epl-2.0/
 [epl2-shield]: https://img.shields.io/badge/License-EPL%202.0-lightgrey.svg
 
-<a rel="license" href="https://www.eclipse.org/legal/epl-2.0/"><img alt="Eclipse Public License" height=47px style="border-width:0" src="https://www.eclipse.org/eclipse.org-common/themes/solstice/public/images/logo/eclipse-foundation-grey-orange.svg" /></a></br>This work is licensed under the <a rel="license" href="https://www.eclipse.org/legal/epl-2.0/">Eclipse Public License 2.0</a>.
+<a rel="license" href="https://www.eclipse.org/legal/epl-2.0/"><img alt="Eclipse Public License" height=47px style="border-width:0" src="https://www.eclipse.org/eclipse.org-common/themes/solstice/public/images/logo/eclipse-foundation-grey-orange.svg" /></a><br>This work is licensed under the <a rel="license" href="https://www.eclipse.org/legal/epl-2.0/">Eclipse Public License 2.0</a>.
 
 <!-- Apache 2.0 -->
 Shields: [![Apache 2.0][apache-shield]][apache]
@@ -375,7 +375,7 @@ Shields: [![Apache 2.0][apache-shield]][apache]
 [apache]: https://www.apache.org/licenses/LICENSE-2.0
 [apache-shield]: https://img.shields.io/badge/License-Apache%202.0-lightgrey.svg
 
-<a rel="license" href="https://www.apache.org/licenses/LICENSE-2.0"><img alt="Apache License" height=47px style="border-width:0" src="https://www.apache.org/img/asf-estd-1999-logo.jpg" /></a></br>This work is licensed under the <a rel="license" href="https://www.apache.org/licenses/LICENSE-2.0">Apache License 2.0</a>.
+<a rel="license" href="https://www.apache.org/licenses/LICENSE-2.0"><img alt="Apache License" height=47px style="border-width:0" src="https://www.apache.org/img/asf-estd-1999-logo.jpg" /></a><br>This work is licensed under the <a rel="license" href="https://www.apache.org/licenses/LICENSE-2.0">Apache License 2.0</a>.
 
 <!-- MIT -->
 Shields: [![MIT License][mit-shield]][mit]
@@ -383,18 +383,18 @@ Shields: [![MIT License][mit-shield]][mit]
 [mit]: https://opensource.org/licenses/MIT
 [mit-shield]: https://img.shields.io/badge/License-MIT-lightgrey.svg
 
-<a rel="license" href="https://opensource.org/licenses/MIT"><img alt="MIT License" height=47px style="border-width:0" src="https://i0.wp.com/opensource.org/wp-content/uploads/2023/03/cropped-OSI-horizontal-large.png" /></a></br>This work is licensed under the <a rel="license" href="https://opensource.org/licenses/MIT">MIT License</a>.
+<a rel="license" href="https://opensource.org/licenses/MIT"><img alt="MIT License" height=47px style="border-width:0" src="https://i0.wp.com/opensource.org/wp-content/uploads/2023/03/cropped-OSI-horizontal-large.png" /></a><br>This work is licensed under the <a rel="license" href="https://opensource.org/licenses/MIT">MIT License</a>.
 ```
 
 # Licenses
 ## code
-  - GNU General Public License v3.0 (GPL-3.0) </br>
-_complex_ ; don`t alter license itself, include copyright notice with program brief description in source files
-  - Eclipse Public License 2.0 (EPL) </br>
+  - GNU General Public License v3.0 (GPL-3.0) <br>
+_complex_ ; don`t alter license itself (banned), include copyright notice with program brief description in source files
+  - Eclipse Public License 2.0 (EPL) <br>
 _fast_ ; insert copyright notice at the end of the license
-  - Apache License 2.0 </br>
-_simple_ ; alter end part after `END OF TERMS AND CONDITIONS` inserting copyright notice
-  - MIT </br>
+  - Apache License 2.0 <br>
+_simple_ ; don`t alter license itself, include copyright notice in source files
+  - MIT <br>
 _fastest_ ; insert copyright notice inside the license
 
 ## non-code (art, etc)
