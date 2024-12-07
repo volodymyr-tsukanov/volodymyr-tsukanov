@@ -384,18 +384,35 @@ Shields: [![MIT License][mit-shield]][mit]
 [mit-shield]: https://img.shields.io/badge/License-MIT-lightgrey.svg
 
 <a rel="license" href="https://opensource.org/licenses/MIT"><img alt="MIT License" height=47px style="border-width:0" src="https://i0.wp.com/opensource.org/wp-content/uploads/2023/03/cropped-OSI-horizontal-large.png" /></a><br>This work is licensed under the <a rel="license" href="https://opensource.org/licenses/MIT">MIT License</a>.
+
+<!-- Mozilla Public License 2.0 -->
+Shields: [![Mozilla Public License 2.0][mpl-shield]][mpl]
+
+[mpl]: https://opensource.org/licenses/MPL-2.0
+[mpl-shield]: https://img.shields.io/badge/License-Mozilla_Public_License_2.0-brightgreen.svg
+
+<a rel="license" href="https://opensource.org/licenses/MPL-2.0"><img alt="Mozilla Public License 2.0" height=47px style="border-width:0" src="https://i0.wp.com/opensource.org/wp-content/uploads/2023/03/cropped-OSI-horizontal-large.png" /></a><br>This work is licensed under the <a rel="license" href="https://opensource.org/licenses/MPL-2.0">Mozilla Public License 2.0</a>.
 ```
 
 # Licenses
 ## code
   - GNU General Public License v3.0 (GPL-3.0) <br>
-_complex_ ; don`t alter license itself (banned), include copyright notice with program brief description in source files
+_complex_ ; don`t alter license itself (banned), include copyright notice(template is below **END OF TERMS AND CONDITIONS** in the license) with program brief description in source files
   - Eclipse Public License 2.0 (EPL) <br>
-_fast_ ; insert copyright notice at the end of the license
+_fast_ ; insert copyright notice(`<project-name>  Copyright (C) <year>  <author>`) at the end of the license
   - Apache License 2.0 <br>
-_simple_ ; don`t alter license itself, include copyright notice in source files
+_simple_ ; don`t alter license itself, include copyright notice(template at the end of the license) in source files
   - MIT <br>
-_fastest_ ; insert copyright notice inside the license
+_fastest_ ; alter copyright notice inside the license
+  - Mozilla Public License 2.0 <br>
+_simple_ ; don`t alter license itself, include copyright notice in source files
+template
+```
+<project-name>  Copyright (C) <year>  <author>
+This Source Code Form is subject to the terms of the Mozilla Public License, v. 2.0.
+If a copy of the MPL was not distributed with this file, You can obtain one at
+http://mozilla.org/MPL/2.0/.
+```
 
 ## non-code (art, etc)
   - Creative Commons Attribution-NonCommercial 4.0 International License (CC-BY-NC)
