@@ -340,6 +340,7 @@ git gc
 *<pattern>*	# all files that contains pattern
 ```
 
+
 # README.md template:
 ```
 # repo-name
@@ -394,6 +395,7 @@ Shields: [![Mozilla Public License 2.0][mpl-shield]][mpl]
 <a rel="license" href="https://opensource.org/licenses/MPL-2.0"><img alt="Mozilla Public License 2.0" height=47px style="border-width:0" src="https://i0.wp.com/opensource.org/wp-content/uploads/2023/03/cropped-OSI-horizontal-large.png" /></a><br>This work is licensed under the <a rel="license" href="https://opensource.org/licenses/MPL-2.0">Mozilla Public License 2.0</a>.
 ```
 
+
 # Licenses
 ## code
   - GNU General Public License v3.0 (GPL-3.0) <br>
@@ -405,17 +407,11 @@ _simple_ ; don`t alter license itself, include copyright notice(template at the 
   - MIT <br>
 _fastest_ ; alter copyright notice inside the license
   - Mozilla Public License 2.0 <br>
-_simple_ ; don`t alter license itself, include copyright notice in source files
-template
-```
-<project-name>  Copyright (C) <year>  <author>
-This Source Code Form is subject to the terms of the Mozilla Public License, v. 2.0.
-If a copy of the MPL was not distributed with this file, You can obtain one at
-http://mozilla.org/MPL/2.0/.
-```
+_simple_ ; don`t alter license itself, include copyright notice(template is below **Exhibit A** in the license) in source files
 
 ## non-code (art, etc)
   - Creative Commons Attribution-NonCommercial 4.0 International License (CC-BY-NC)
+
 
 # GPG keys
 ## Creating new key
