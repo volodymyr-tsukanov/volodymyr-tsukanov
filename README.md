@@ -182,11 +182,15 @@ git remote add lorig <path-to-bare-repo>
 ## Branches
 ### New branch from current branch
 ```
-git branch <new-branch>
+git branch <branch-name>
 # or
-git switch -c <new-branch>
+git switch -c <branch-name>
 # or
-git checkout -b <new-branch>
+git checkout -b <branch-name>
+```
+### New clear branch (no commits)
+```
+git switch --orphan <branch-name>
 ```
 ### Switch branch
 ```
