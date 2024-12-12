@@ -78,13 +78,21 @@ git config commit.gpgsign true    # optional
 
 ## Config
 ### Aliases
-#### add & commit
-```
+#### committing
+```bash
+# add & commit
 git config --global alias.ac '!git add -u && git commit -m'
-```
-#### add & sign & commit
-```
+# add & sign & commit
 git config --global alias.acs '!git add -u && git commit -S -m'
+```
+#### fixing committs
+```bash
+# message edit last commit
+git config --global alias.mc 'git commit --amend --no-edit'
+# edit last commit
+git config --global alias.ec 'git commit --amend'
+# delete last commit
+git config --global alias.dc 'git reset HEAD~1'
 ```
 #### push to remote & set to track
 ```
@@ -238,7 +246,7 @@ git stash list
 git stash apply <index>
 ```
 
-## Merge & Squash
+## Branch operations
 ### Merge
 1. Switch to branch that will contain merged data from two branches - `<target-branch>`
 2. Select second branch using `git merge <second-branch>`
@@ -264,6 +272,16 @@ git merge --squash
 - Undo `U`
 - Write changes `:w`
 - Quit `:qa`
+
+### Bisect
+*Use case:* bug fixing
+```bash
+# start on the nearest working commit
+git bisect start
+# overview commit and decide [good/bad]
+git bisect bad
+# repeat the previous step
+```
 
 ## Restore
 ### Restore file/folder
