@@ -13,10 +13,10 @@
 ### Languages
 [![Java](https://img.shields.io/badge/java-393646?style=for-the-badge&logo=openjdk)](https://github.com/volodymyr-tsukanov/telephone-book)
 [![C++](https://img.shields.io/badge/c++-393646?style=for-the-badge&logo=cplusplus)](https://github.com/volodymyr-tsukanov/zpo-cpp)
-[![C#](https://img.shields.io/badge/c%23-393646?style=for-the-badge&logo=csharp)](https://github.com/volodymyr-tsukanov/code-crypt)
 [![C](https://img.shields.io/badge/c-393646?style=for-the-badge&logo=c)](https://github.com/volodymyr-tsukanov/sw-c)
-[![Python](https://img.shields.io/badge/python-393646?style=for-the-badge&logo=python)](https://github.com/volodymyr-tsukanov/posi-py)
+[![C#](https://img.shields.io/badge/c%23-393646?style=for-the-badge&logo=csharp)](https://github.com/volodymyr-tsukanov/code-crypt)
 [![JavaScript](https://img.shields.io/badge/java%20script-393646?style=for-the-badge&logo=javascript)](https://github.com/volodymyr-tsukanov/poai-html-1)
+[![Python](https://img.shields.io/badge/python-393646?style=for-the-badge&logo=python)](https://github.com/volodymyr-tsukanov/posi-py)
 [![Php](https://img.shields.io/badge/php-393646?style=for-the-badge&logo=php)](https://github.com/volodymyr-tsukanov/prai)
 
 [![HTML](https://img.shields.io/badge/html-393646?style=for-the-badge&logo=html5)](https://github.com/volodymyr-tsukanov/poai-project)
@@ -105,7 +105,7 @@ git config --global alias.fpull '!git fetch morig && git pull'
 ```
 #### log
 ```bash
-git config --global alias.loq 'log --graph --pretty=format:"%C(italic red)%h%Creset %C(green)<--%Creset%C(bold reverse red)%d%Creset %s%n%C(magenta)(%cd)%Creset %C(bold cyan)<%an>%Creset%C(green)(%G?)%Creset" --date=format:"%d/%m/%Y %H:%M"'
+git config --global alias.loq 'log --graph --pretty=format:"%C(italic red)%h%Creset %C(green)<--%Creset%C(bold reverse red)%d%Creset %s%n   %C(magenta)(%cd)%Creset %C(bold cyan)<%an>%Creset%C(green)(%G?)%Creset" --date=format:"%d/%m/%Y %H:%M"'
 ```
 ### default text editor
 ```
