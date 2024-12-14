@@ -406,7 +406,7 @@ Shields: [![MIT License][mit-shield]][mit]
 [mit]: https://opensource.org/licenses/MIT
 [mit-shield]: https://img.shields.io/badge/License-MIT-lightgrey.svg
 
-<a rel="license" href="https://opensource.org/licenses/MIT"><img alt="MIT License" height=47px style="border-width:0" src="https://i0.wp.com/opensource.org/wp-content/uploads/2023/03/cropped-OSI-horizontal-large.png" /></a><br>This work is licensed under the <a rel="license" href="https://opensource.org/licenses/MIT">MIT License</a>.
+<a rel="license" href="https://opensource.org/licenses/MIT"><img alt="MIT License" height=47px style="border-width:0" src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/i/7195e121-eded-45cf-9aab-909deebd81b2/d9ur2lg-28410b47-58fd-4a48-9b67-49c0f56c68ce.png/v1/fill/w_1035,h_772,q_70,strp/mit_license_logo_by_excaliburzero_d9ur2lg-pre.jpg" /></a><br>This work is licensed under the <a rel="license" href="https://opensource.org/licenses/MIT">MIT License</a>.
 
 <!-- Mozilla Public License 2.0 -->
 Shields: [![Mozilla Public License 2.0][mpl-shield]][mpl]
@@ -414,9 +414,16 @@ Shields: [![Mozilla Public License 2.0][mpl-shield]][mpl]
 [mpl]: https://opensource.org/licenses/MPL-2.0
 [mpl-shield]: https://img.shields.io/badge/License-Mozilla_Public_License_2.0-brightgreen.svg
 
-<a rel="license" href="https://opensource.org/licenses/MPL-2.0"><img alt="Mozilla Public License 2.0" height=47px style="border-width:0" src="https://i0.wp.com/opensource.org/wp-content/uploads/2023/03/cropped-OSI-horizontal-large.png" /></a><br>This work is licensed under the <a rel="license" href="https://opensource.org/licenses/MPL-2.0">Mozilla Public License 2.0</a>.
-```
+<a rel="license" href="https://www.mozilla.org/en-US/MPL/2.0/"><img alt="Mozilla Public License 2.0" height=47px style="border-width:0" src="https://www.mozilla.org/media/img/logos/m24/lockup-black.f2ddba3f0724.svg" /></a><br>This work is licensed under the <a rel="license" href="https://opensource.org/licenses/MPL-2.0">Mozilla Public License 2.0</a>.
 
+<!-- BSD 3-Clause -->
+Shields: [![BSD 3-Clause License][bsd-shield]][bsd]
+
+[bsd]: https://opensource.org/licenses/BSD-3-Clause
+[bsd-shield]: https://img.shields.io/badge/License-BSD%203--Clause-blue.svg
+
+<a rel="license" href="https://spdx.org/licenses/BSD-3-Clause.html"><img alt="BSD 3-Clause License" height=47px style="border-width:0" src="https://simpleicons.org/icons/bsd.svg" /></a><br>This work is licensed under the <a rel="license" href="https://opensource.org/licenses/BSD-3-Clause">BSD 3-Clause License</a>.
+```
 
 # Licenses
 ## code
@@ -430,6 +437,8 @@ _simple_ ; don`t alter license itself, include copyright notice(template at the 
 _fastest_ ; alter copyright notice inside the license
   - Mozilla Public License 2.0 <br>
 _simple_ ; don`t alter license itself, include copyright notice(template is below **Exhibit A** in the license) in source files
+  - BSD 3-Clause License <br>
+_fastest_ ; alter copyright notice inside the license
 
 ## non-code (art, etc)
   - Creative Commons Attribution-NonCommercial 4.0 International License (CC-BY-NC)
