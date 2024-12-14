@@ -71,7 +71,7 @@ git update-git-for-windows    # or 'git update'
 git config --global credential.helper ""
 ```
 ### Sign commits with GPG (on trusted devices only)
-```
+```bash
 git config user.signingkey <gpg-sec-id>
 git config commit.gpgsign true    # optional
 ```
@@ -95,17 +95,17 @@ git config --global alias.ec 'git commit --amend'
 git config --global alias.dc 'git reset HEAD~1'
 ```
 #### push to remote & set to track
-```
+```bash
 git config --global alias.pmc 'push -u morig HEAD'
 ```
 it is possible to use `git push` after `git pmc`
 #### fetch & pull
-```
+```bash
 git config --global alias.fpull '!git fetch morig && git pull'
 ```
 #### log
-```
-git config --global alias.loq 'log --graph --pretty=format:"%C(italic red)%h%Creset %C(yellow)<--%Creset%C(bold reverse red)%d%Creset %C(white)%s%Creset %C(bold cyan)<%an>%Creset%C(magenta)(%cd)%Creset" --date=format:"%d/%m/%Y %H:%M"'
+```bash
+git config --global alias.loq 'log --graph --pretty=format:"%C(italic red)%h%Creset %C(green)<--%Creset%C(bold reverse red)%d%Creset %s%n%C(magenta)(%cd)%Creset %C(bold cyan)<%an>%Creset%C(green)(%G?)%Creset" --date=format:"%d/%m/%Y %H:%M"'
 ```
 ### default text editor
 ```
