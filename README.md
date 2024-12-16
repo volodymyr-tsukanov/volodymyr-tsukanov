@@ -88,9 +88,11 @@ git config --global alias.acs '!git add -u && git commit -S -m'
 #### fixing committs
 ```bash
 # message edit last commit
-git config --global alias.mc 'git commit --amend --no-edit'
+git config --global alias.mc 'git commit --amend --no-edit -m'
+git config --global alias.mcs 'git commit --amend --no-edit -S -m'
 # edit last commit
 git config --global alias.ec 'git commit --amend'
+git config --global alias.ecs 'git commit --amend -S -m'
 # delete last commit
 git config --global alias.dc 'git reset HEAD~1'
 ```
