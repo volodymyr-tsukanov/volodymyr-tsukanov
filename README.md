@@ -109,9 +109,13 @@ git config --global alias.fpull '!git fetch morig && git pull'
 ```bash
 git config --global alias.loq 'log --graph --pretty=format:"%C(italic red)%h%Creset %C(green)<--%Creset%C(bold reverse red)%d%Creset %s%n   %C(magenta)(%cd)%Creset %C(bold cyan)<%an>%Creset%C(green)(%G?)%Creset" --date=format:"%d/%m/%Y %H:%M"'
 ```
-### default text editor
+#### merge
+```bash
+git config --global alias.mergen 'merge --no-commit'
 ```
-git config --global core.editor "'<editor-path>' -multiInst -notabbar -nosession -noPlugin"
+### default text editor
+```bash
+git config --global core.editor "'<editor-path>'"
 ```
 ### custom mergetool
 `git config --global --edit`
