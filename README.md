@@ -84,6 +84,8 @@ git config commit.gpgsign true    # optional
 git config --global alias.ac '!git add -u && git commit -m'
 # add & sign & commit
 git config --global alias.acs '!git add -u && git commit -S -m'
+# redo add
+git config --global alias.unadd 'restore --staged'
 ```
 #### fixing committs
 ```bash
