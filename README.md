@@ -15,7 +15,7 @@
 [![C++](https://img.shields.io/badge/c++-393646?style=for-the-badge&logo=cplusplus)](https://github.com/volodymyr-tsukanov/zpo-cpp)
 [![C](https://img.shields.io/badge/c-393646?style=for-the-badge&logo=c)](https://github.com/volodymyr-tsukanov/sw-c)
 [![C#](https://img.shields.io/badge/c%23-393646?style=for-the-badge&logo=csharp)](https://github.com/volodymyr-tsukanov/code-crypt)
-[![JavaScript](https://img.shields.io/badge/java%20script-393646?style=for-the-badge&logo=javascript)](https://github.com/volodymyr-tsukanov/poai-html-1)
+[![JavaScript](https://img.shields.io/badge/js-393646?style=for-the-badge&logo=javascript)](https://github.com/volodymyr-tsukanov/poai-html-1)
 [![Python](https://img.shields.io/badge/python-393646?style=for-the-badge&logo=python)](https://github.com/volodymyr-tsukanov/posi-py)
 [![Php](https://img.shields.io/badge/php-393646?style=for-the-badge&logo=php)](https://github.com/volodymyr-tsukanov/prai)
 
