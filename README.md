@@ -376,6 +376,9 @@ git gc
 # repo-name
 programming-language, IDE; description<br><br>
 
+	<!-- BADGES -->
+![Archived](https://img.shields.io/badge/status-Archived%20%F0%9F%AA%A6-DC143C?style=for-the-badge&logo=github) <br>
+	<!-- SHIELDS -->
 <!--CC BY NC--> 
 Shields: [![CC BY-NC 4.0][cc-by-nc-shield]][cc-by-nc]
 
