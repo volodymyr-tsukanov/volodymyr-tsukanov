@@ -63,17 +63,26 @@
 
 ## Setup
 ### Update Git
-```
-git update-git-for-windows    # or 'git update'
+```bash
+git update    # or 'git update-git-for-windows'
 ```
 ### Protect sensitive data from being stored
-```
+```bash
 git config --global credential.helper ""
 ```
 ### Sign commits with GPG (on trusted devices only)
 ```bash
 git config user.signingkey <gpg-sec-id>
 git config commit.gpgsign true    # optional
+```
+### Repo clone Wizard
+```bash
+echo "Ultimate Amazing git Wizard v0.1" \
+&& read -p "Speak your name: " user_name && read -p "Share your email: " user_email && read -p "Leak your GPH key: " user_gph && read -p "Point at the target (format <host>/<author>/<repo-name>, eg. 'github.com/you/repo-dog'): " repo_path \
+&& git clone https://${repo_path}.git && cd "${repo_path##*/}" \
+&& git config user.name "${user_name}" && git config user.email "${user_email}" \
+&& git remote add ${repo_path%%/*} "https://${user_name}:${user_gph}@${repo_path}.git" && git fetch ${repo_path%%/*} && git remote remove origin && git branch -vv \
+&& read -p "Bring your GPG sign(Enter to skip): " gpg_key; [ -z "$gpg_key" ] && echo "No GPG, sneaky mode on" || git config user.signingkey "${gpg_key}"
 ```
 
 ## Config
@@ -139,59 +148,59 @@ git config --global core.editor "'<editor-path>'"
 
 ## Clone remote repository
 ### Single branch
-```
+```bash
 git clone --branch <branch> --single-branch <repository-url>
 ```
 ### Last commit
-```
+```bash
 git clone --depth 1 --branch <branch> <repository-url>
 ```
 
 ## Remote
 ### Fetch & merge (leaves merge commit)
-```
+```bash
 git fetch <remote>
 git merge <remote>/<branch>
 ```
 ### Fetch & pull (on current branch, no merge commit)
-```
+```bash
 git fetch <remote>
 git pull
 ```
 ### Fetch specific branch
-```
+```bash
 git fetch <remote> <branch1> <branch2>
 ```
 ### Remote fetch options (branches)
-```
+```bash
 git remote show <remote>
 git remote set-branches <remote> <branch>
 ```
 ### Switch to remote branch (after `git fetch`, if no local branch)
-```
+```bash
 git switch --track <remote>/<branch>
 # or
 git checkout --track <remote>/<branch>
 ```
 ### Pull to specified branch
-```
+```bash
 git checkout -b <new-local-branch> <remote>/<remote-branch>
 ```
 ### Push to remote
-```
+```bash
 git add .
 git commit -m 'msg'
 git push <remote> <branch>
 ```
 ### Local remote
 #### Bare repo (server)
-```
+```bash
 mkdir <repo-name>.git
 cd <repo-name>.git
 git init --bare
 ```
 #### Client
-```
+```bash
 git remote add lorig <path-to-bare-repo>
 ```
 
