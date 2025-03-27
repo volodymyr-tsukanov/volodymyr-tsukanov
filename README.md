@@ -87,6 +87,11 @@ echo "Ultimate Amazing git Wizard v0.1" \
 
 ## Config
 ### Aliases
+#### info
+```bash
+git config --global alias.loq 'log --graph --pretty=format:"%C(italic red)%h%Creset %C(green)<--%Creset%C(bold reverse red)%d%Creset %s%n   %C(magenta)(%cd)%Creset %C(bold cyan)<%an>%Creset%C(green)(%G?)%Creset" --date=format:"%d/%m/%Y %H:%M"'
+git config --global alias.bra 'branch -avv'
+```
 #### committing
 ```bash
 # add & commit
@@ -114,11 +119,7 @@ git config --global alias.pmc 'push -u morig HEAD'
 it is possible to use `git push` after `git pmc`
 #### fetch & pull
 ```bash
-git config --global alias.fpull '!git fetch morig && git pull'
-```
-#### log
-```bash
-git config --global alias.loq 'log --graph --pretty=format:"%C(italic red)%h%Creset %C(green)<--%Creset%C(bold reverse red)%d%Creset %s%n   %C(magenta)(%cd)%Creset %C(bold cyan)<%an>%Creset%C(green)(%G?)%Creset" --date=format:"%d/%m/%Y %H:%M"'
+git config --global alias.fpull '!git fetch && git pull'
 ```
 #### merge
 ```bash
