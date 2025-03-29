@@ -61,7 +61,9 @@
 <details>
 <summary>Git shortcuts</summary>
 
-## Setup
+<details>
+<summary>Setup</summary>
+# Setup
 ### Update Git
 ```bash
 git update    # or 'git update-git-for-windows'
@@ -74,15 +76,6 @@ git config --global credential.helper ""
 ```bash
 git config user.signingkey <gpg-sec-id>
 git config commit.gpgsign true    # optional
-```
-### Repo clone Wizard
-```bash
-echo "Ultimate Amazing git Wizard v0.2" \
-&& read -p "Speak your name: " user_name && read -p "Share your email: " user_email && read -p "Leak your GHP key: " user_ghp && read -p "Point at the target (format <host>/<author>/<repo-name>, eg. 'github.com/you/repo-dog'): " repo_path \
-&& git clone "https://${user_name}:${user_ghp}@${repo_path}.git" && cd "${repo_path##*/}" \
-&& git config user.name "${user_name}" && git config user.email "${user_email}" \
-&& git remote add ${repo_path%%/*} "https://${user_name}:${user_ghp}@${repo_path}.git" && git fetch ${repo_path%%/*} && git remote remove origin && git branch -vv \
-&& read -p "Bring your GPG sign(Enter to skip): " gpg_key; [ -z "$gpg_key" ] && echo "No GPG, sneaky mode on" || git config user.signingkey "${gpg_key}"
 ```
 
 ## Config
@@ -112,7 +105,7 @@ git config --global alias.ecs 'commit --amend -S -m'
 # delete last commit
 git config --global alias.dc 'reset HEAD~1'
 ```
-#### push to remote & set to track
+#### push to remote
 ```bash
 git config --global alias.pmc 'push -u morig HEAD'
 git config --global alias.psh '!git push -u $1 HEAD || echo \"Unable to push: \"'
@@ -147,6 +140,8 @@ git config --global core.editor "'<editor-path>'"
 [difftool "meld"]
 	path = D:/<meld-path>/Meld.exe
 ```
+</details>
+
 
 ## Clone remote repository
 ### Single branch
@@ -157,43 +152,59 @@ git clone --branch <branch> --single-branch <repository-url>
 ```bash
 git clone --depth 1 --branch <branch> <repository-url>
 ```
+### Repo clone Wizard
+```bash
+echo "Ultimate Amazing git Wizard v0.2" \
+&& read -p "Speak your name: " user_name && read -p "Share your email: " user_email && read -p "Leak your GHP key: " user_ghp && read -p "Point at the target (format <host>/<author>/<repo-name>, eg. 'github.com/you/repo-dog'): " repo_path \
+&& git clone "https://${user_name}:${user_ghp}@${repo_path}.git" && cd "${repo_path##*/}" \
+&& git config user.name "${user_name}" && git config user.email "${user_email}" \
+&& git remote add ${repo_path%%/*} "https://${user_name}:${user_ghp}@${repo_path}.git" && git fetch ${repo_path%%/*} && git remote remove origin && git branch -vv \
+&& read -p "Bring your GPG sign(Enter to skip): " gpg_key; [ -z "$gpg_key" ] && echo "No GPG, sneaky mode on" || git config user.signingkey "${gpg_key}"
+```
 
-## Remote
-### Fetch & merge (leaves merge commit)
-```bash
-git fetch <remote>
-git merge <remote>/<branch>
-```
-### Fetch & pull (on current branch, no merge commit)
-```bash
-git fetch <remote>
-git pull
-```
-### Fetch specific branch
-```bash
-git fetch <remote> <branch1> <branch2>
-```
-### Remote fetch options (branches)
+<details>
+<summary>Remotes</summary>
+## Pull
+### Prefetch
 ```bash
 git remote show <remote>
 git remote set-branches <remote> <branch>
 ```
-### Switch to remote branch (after `git fetch`, if no local branch)
+### Fetch
+`git fetch <remote>`
+### Scenarios
+#### Syncing diverged branches without merge commits
+ensures _local_ branch commits are replayed on top of _remote branch_ changes, keeps linear history
 ```bash
-git switch --track <remote>/<branch>
-# or
-git checkout --track <remote>/<branch>
+git pull --rebase <remote> <branch>
 ```
+#### Fast-Forwarding merge for simple updates
+clean and don't create unnecessary merge commits
+```bash
+git pull --ff-only <remote> <branch>
+```
+> ![ATTENTION]
+> This works when the branch is directly ahead of the target branch.
+
 ### Pull to specified branch
 ```bash
 git checkout -b <new-local-branch> <remote>/<remote-branch>
 ```
+
+## Push
+### PrePush
+#### Feature integration with explicit tracking
+explicit merge commit; easier rollback
+```bash
+git merge --no-ff <feature-branch>
+```
+
 ### Push to remote
 ```bash
-git add .
-git commit -m 'msg'
 git push <remote> <branch>
 ```
+</details>
+
 ### Local remote
 #### Bare repo (server)
 ```bash
@@ -206,7 +217,8 @@ git init --bare
 git remote add lorig <path-to-bare-repo>
 ```
 
-## Branches
+<details>
+<summary>Branches</summary>
 ### New branch from current branch
 ```
 git branch <branch-name>
@@ -229,7 +241,7 @@ git checkout <branch>
 ```
 git switch -
 ```
-### Rename (move) branch
+### Rename branch
 ```
 git branch -m <old-branch> <new-branch>
 ```
@@ -241,18 +253,7 @@ git branch -d <branch-to-delete>
 ```
 git rev-parse --short <branch>
 ```
-
-## Commit history (log)
-### See commit history for current branch
-```
-git log --oneline --graph
-```
-
-## Traveling in time
-### Checkout commit by hash from `git log`
-```
-git checkout <commit-hash>
-```
+</details>
 
 ## Stash
 ### Save
@@ -265,7 +266,8 @@ git stash list
 git stash apply <index>
 ```
 
-## Branch operations
+<details>
+<summary>Merging</summary>
 ### Merge
 1. Switch to branch that will contain merged data from two branches - `<target-branch>`
 2. Select second branch using `git merge <second-branch>`
@@ -301,6 +303,7 @@ git bisect start
 git bisect bad
 # repeat the previous step
 ```
+</details>
 
 ## Restore
 ### Restore file/folder
@@ -373,6 +376,8 @@ git gc
 (or `git prune` and `git repack`)
 
 
+<details>
+<summary>Templates</summary>
 # .gitignore
 ```
 <file>
@@ -380,7 +385,6 @@ git gc
 *.<extention>
 *<pattern>*	# all files that contains pattern
 ```
-
 
 # README.md template:
 ```
@@ -448,6 +452,7 @@ Shields: [![BSD 3-Clause License][bsd-shield]][bsd]
 
 <a rel="license" href="https://spdx.org/licenses/BSD-3-Clause.html"><img alt="BSD 3-Clause License" height=47px style="border-width:0" src="https://simpleicons.org/icons/bsd.svg" /></a><br>This work is licensed under the <a rel="license" href="https://opensource.org/licenses/BSD-3-Clause">BSD 3-Clause License</a>.
 ```
+</details>
 
 # Licenses
 ## code
@@ -488,6 +493,8 @@ gpg --import <gpg-key>
 ```
 </details>
 
+
+
 <details>
 <summary>Statistics</summary>
     
@@ -495,6 +502,8 @@ gpg --import <gpg-key>
 
 - Readme-stats ![Readme-stats](https://github-readme-stats.vercel.app/api?username=volodymyr-tsukanov&show_icons=true&theme=tokyonight)
 </details>
+
+
 
 <details>
 <summary>Other</summary>
