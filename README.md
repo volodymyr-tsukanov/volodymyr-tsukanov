@@ -77,11 +77,11 @@ git config commit.gpgsign true    # optional
 ```
 ### Repo clone Wizard
 ```bash
-echo "Ultimate Amazing git Wizard v0.1" \
-&& read -p "Speak your name: " user_name && read -p "Share your email: " user_email && read -p "Leak your GPH key: " user_gph && read -p "Point at the target (format <host>/<author>/<repo-name>, eg. 'github.com/you/repo-dog'): " repo_path \
-&& git clone https://${repo_path}.git && cd "${repo_path##*/}" \
+echo "Ultimate Amazing git Wizard v0.2" \
+&& read -p "Speak your name: " user_name && read -p "Share your email: " user_email && read -p "Leak your GHP key: " user_ghp && read -p "Point at the target (format <host>/<author>/<repo-name>, eg. 'github.com/you/repo-dog'): " repo_path \
+&& git clone "https://${user_name}:${user_ghp}@${repo_path}.git" && cd "${repo_path##*/}" \
 && git config user.name "${user_name}" && git config user.email "${user_email}" \
-&& git remote add ${repo_path%%/*} "https://${user_name}:${user_gph}@${repo_path}.git" && git fetch ${repo_path%%/*} && git remote remove origin && git branch -vv \
+&& git remote add ${repo_path%%/*} "https://${user_name}:${user_ghp}@${repo_path}.git" && git fetch ${repo_path%%/*} && git remote remove origin && git branch -vv \
 && read -p "Bring your GPG sign(Enter to skip): " gpg_key; [ -z "$gpg_key" ] && echo "No GPG, sneaky mode on" || git config user.signingkey "${gpg_key}"
 ```
 
