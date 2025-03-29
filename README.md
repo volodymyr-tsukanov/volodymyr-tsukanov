@@ -63,6 +63,7 @@
 
 <details>
 <summary>Setup</summary>
+
 # Setup
 ### Update Git
 ```bash
@@ -164,6 +165,7 @@ echo "Ultimate Amazing git Wizard v0.2" \
 
 <details>
 <summary>Remotes</summary>
+
 ## Pull
 ### Prefetch
 ```bash
@@ -219,6 +221,7 @@ git remote add lorig <path-to-bare-repo>
 
 <details>
 <summary>Branches</summary>
+
 ### New branch from current branch
 ```
 git branch <branch-name>
@@ -268,6 +271,7 @@ git stash apply <index>
 
 <details>
 <summary>Merging</summary>
+
 ### Merge
 1. Switch to branch that will contain merged data from two branches - `<target-branch>`
 2. Select second branch using `git merge <second-branch>`
@@ -378,6 +382,7 @@ git gc
 
 <details>
 <summary>Templates</summary>
+
 # .gitignore
 ```
 <file>
