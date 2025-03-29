@@ -185,6 +185,7 @@ clean and don't create unnecessary merge commits
 ```bash
 git pull --ff-only <remote> <branch>
 ```
+
 > [!IMPORTANT]
 > This works when the branch is directly ahead of the target branch.
 
