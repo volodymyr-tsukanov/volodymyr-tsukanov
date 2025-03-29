@@ -115,6 +115,7 @@ git config --global alias.dc 'reset HEAD~1'
 #### push to remote & set to track
 ```bash
 git config --global alias.pmc 'push -u morig HEAD'
+git config --global alias.psh '!git push -u $1 HEAD || echo \"Unable to push: \"'
 ```
 it is possible to use `git push` after `git pmc`
 #### fetch & pull
