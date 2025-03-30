@@ -62,9 +62,9 @@
 <summary>Git shortcuts</summary>
 
 <details>
-<summary>Setup</summary>
+<summary>|-_Setup_-|</summary>
 
-# Setup
+## Beginning
 ### Update Git
 ```bash
 git update    # or 'git update-git-for-windows'
@@ -141,7 +141,7 @@ git config --global core.editor "'<editor-path>'"
 [difftool "meld"]
 	path = D:/<meld-path>/Meld.exe
 ```
-</details>
+</details> <br>
 
 
 ## Clone remote repository
@@ -162,9 +162,10 @@ echo "Ultimate Amazing git Wizard v0.2" \
 && git remote add ${repo_path%%/*} "https://${user_name}:${user_ghp}@${repo_path}.git" && git fetch ${repo_path%%/*} && git remote remove origin && git branch -vv \
 && read -p "Bring your GPG sign(Enter to skip): " gpg_key; [ -z "$gpg_key" ] && echo "No GPG, sneaky mode on" || git config user.signingkey "${gpg_key}"
 ```
+<br>
 
 <details>
-<summary>Remotes</summary>
+<summary>|-_Remotes_-|</summary>
 
 ## Pull
 ### Prefetch
@@ -185,9 +186,7 @@ clean and don't create unnecessary merge commits
 ```bash
 git pull --ff-only <remote> <branch>
 ```
-
-> [!IMPORTANT]
-> This works when the branch is directly ahead of the target branch.
+**Important**: this works when the branch is directly ahead of the target branch.
 
 ### Pull to specified branch
 ```bash
@@ -206,7 +205,7 @@ git merge --no-ff <feature-branch>
 ```bash
 git push <remote> <branch>
 ```
-</details>
+</details> <br>
 
 ### Local remote
 #### Bare repo (server)
@@ -219,9 +218,10 @@ git init --bare
 ```bash
 git remote add lorig <path-to-bare-repo>
 ```
+<br>
 
 <details>
-<summary>Branches</summary>
+<summary>|-_Branches_-|</summary>
 
 ### New branch from current branch
 ```
@@ -257,7 +257,7 @@ git branch -d <branch-to-delete>
 ```
 git rev-parse --short <branch>
 ```
-</details>
+</details> <br>
 
 ## Stash
 ### Save
@@ -269,9 +269,10 @@ git stash save <save-name>
 git stash list
 git stash apply <index>
 ```
+<br>
 
 <details>
-<summary>Merging</summary>
+<summary>|-_Merging_-|</summary>
 
 ### Merge
 1. Switch to branch that will contain merged data from two branches - `<target-branch>`
@@ -308,7 +309,7 @@ git bisect start
 git bisect bad
 # repeat the previous step
 ```
-</details>
+</details> <br>
 
 ## Restore
 ### Restore file/folder
@@ -379,10 +380,10 @@ git branch --set-upstream-to=<remote>/<branch>
 git gc
 ```
 (or `git prune` and `git repack`)
-
+<br>
 
 <details>
-<summary>Templates</summary>
+<summary>|-_Templates_-|</summary>
 
 # .gitignore
 ```
@@ -458,7 +459,7 @@ Shields: [![BSD 3-Clause License][bsd-shield]][bsd]
 
 <a rel="license" href="https://spdx.org/licenses/BSD-3-Clause.html"><img alt="BSD 3-Clause License" height=47px style="border-width:0" src="https://simpleicons.org/icons/bsd.svg" /></a><br>This work is licensed under the <a rel="license" href="https://opensource.org/licenses/BSD-3-Clause">BSD 3-Clause License</a>.
 ```
-</details>
+</details> <br>
 
 # Licenses
 ## code
@@ -477,6 +478,7 @@ _fastest_ ; alter copyright notice inside the license
 
 ## non-code (art, etc)
   - Creative Commons Attribution-NonCommercial 4.0 International License (CC-BY-NC)
+<br>
 
 
 # GPG keys
