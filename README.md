@@ -186,12 +186,23 @@ clean and don't create unnecessary merge commits
 ```bash
 git pull --ff-only <remote> <branch>
 ```
-**Important**: this works when the branch is directly ahead of the target branch.
+**Important**: this works when the local branch is directly ahead of the target remote branch.
 
 ### Pull to specified branch
 ```bash
 git checkout -b <new-local-branch> <remote>/<remote-branch>
 ```
+### Summary
+| **Flag**          | **Use Case**                                                             | **Requirements**                                                 | **Outcome**                                    |
+|--------------------|-------------------------------------------------------------------------|------------------------------------------------------------------|-----------------------------------------------|
+| `--rebase`        | Maintain a linear history without merge commits.                        | Local branch must diverge from the remote branch.                | Rewrites history; local commits replayed on top of remote changes. |
+| `--no-commit`     | Review and modify merge before committing.                              | Local branch must have changes to merge with the remote branch.  | Stops after merging changes, allowing manual commit.               |
+| `--squash`        | Combine all remote commits into a single local commit.                  | No specific requirements; used for clean history.                | Creates a single commit combining all remote changes.              |
+| `--ff-only`       | Fast-forward updates when no local changes exist.                      | Local branch must be directly ahead of the remote branch.        | Updates local branch without creating a merge commit.              |
+| Default (no flag) | Standard fetch and merge workflow for synchronization.                  | Local branch must be behind or diverged from the remote branch.  | Creates a merge commit if branches have diverged; fast-forward if possible. |
+| `--force`         | Forcefully overwrite local branch with remote changes (use with caution). | Local branch must diverge or conflict with the remote branch.    | Overwrites local changes to match the remote state.                |
+| `--verbose`       | Display detailed output during pull operation.                         | No specific requirements; used for debugging or transparency.    | Provides detailed logs of fetched and merged content.              |
+| `--all`           | Fetch and update all branches from the remote repository.              | Remote repository must have multiple branches to fetch/update.   | Updates all local branches to match their remote counterparts.     |
 
 ## Push
 ### PrePush
@@ -205,6 +216,18 @@ git merge --no-ff <feature-branch>
 ```bash
 git push <remote> <branch>
 ```
+### Summary
+| **Flag**            | **Use Case**                                                                 | **Requirements**                                                     | **Outcome**                                    |
+|----------------------|-----------------------------------------------------------------------------|----------------------------------------------------------------------|-----------------------------------------------|
+| `--no-ff`           | Create an explicit merge commit even if a fast-forward is possible.        | Local branch must be behind or diverged from the target branch.     | Always creates a merge commit for tracking.    |
+| `--ff-only`         | Fast-forward merge if possible; aborts if not.                             | Local branch must be directly behind the target branch.            | Updates local branch without creating a merge commit if possible. |
+| `--no-commit`       | Stop after merging changes, allowing manual commit.                         | Local branch must have changes to merge with the target branch.    | Stops after merging changes, allowing manual commit.               |
+| `--squash`          | Combine all commits from the merged branch into a single commit.            | No specific requirements; used for clean history.                  | Creates a single commit combining all merged changes.             |
+| `--abort`           | Abort the current merge operation.                                          | Merge operation must be in progress.                              | Cancels the merge and restores the branch to its pre-merge state. |
+| `--quit`            | Abort the current merge operation (similar to `--abort`).                   | Merge operation must be in progress.                              | Cancels the merge and restores the branch to its pre-merge state. |
+| `--continue`        | Continue the merge operation after resolving conflicts.                     | Conflicts must have been resolved manually.                        | Completes the merge operation.                                  |
+| Default (no flag)   | Standard merge workflow for integrating changes.                            | Local branch must be behind or diverged from the target branch.    | Creates a merge commit if branches have diverged; fast-forward if possible. |
+
 </details> <br>
 
 ### Local remote
@@ -374,6 +397,10 @@ git branch -vv
 ```
 git branch --set-upstream-to=<remote>/<branch>
 ```
+
+
+
+
 
 ## Cleanup
 ```
