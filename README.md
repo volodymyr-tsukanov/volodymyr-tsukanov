@@ -505,6 +505,22 @@ _fastest_ ; alter copyright notice inside the license
 
 ## non-code (art, etc)
   - Creative Commons Attribution-NonCommercial 4.0 International License (CC-BY-NC)
+
+## Summary
+| License          | Best For                                          | Key Requirement                      |  
+|------------------|---------------------------------------------------|---------------------------------------|  
+| **MIT**          | Simple projects wanting maximum reuse.           | Attribution.                          |  
+| **GPL v3.0**     | Ensuring derivative works stay open-source.      | Share source code of derivatives.     |  
+| **AGPL**         | SaaS/web apps to close the "network loophole."    | Share source code if used over a network. |  
+| **Apache 2.0**   | Projects needing patent protection.               | Attribution + patent grant.           |  
+| **BSD 3-Clause** | Academic/research projects.                       | Attribution + no endorsement clause.  |  
+| **MPL 2.0**      | Mixing open-source and proprietary code.          | Share changes to MPL-licensed files.  |  
+| **EPL 2.0**      | Modular projects with proprietary integrations.   | Share modifications to EPL code.      |  
+ 
+- **MIT/BSD/Apache**: Permissive licenses for code reuse in commercial projects.  
+- **GPL/AGPL**: Enforce open-source derivatives (AGPL for SaaS).  
+- **MPL/EPL**: Balance between open-source and proprietary code.  
+- **CC BY-NC**: Non-commercial creative works.
 <br>
 
 
