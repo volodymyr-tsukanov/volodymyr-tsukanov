@@ -142,6 +142,12 @@ git config --global core.editor "'<editor-path>'"
 [difftool "meld"]
 	path = D:/<meld-path>/Meld.exe
 ```
+### attributes
+#### merge.forced conflicts
+```
+git config merge.afail.name "Always fail (forced conflict)" && git config merge.afail.driver "false"
+```
+use `<path> merge=afail` inside _.gitattributes_
 </details> <br>
 
 
