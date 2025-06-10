@@ -81,11 +81,15 @@ git config commit.gpgsign true    # optional
 
 ## Config
 ### Aliases
-#### info
+#### quick
 ```bash
 git config --global alias.sts 'status -sb'
-git config --global alias.loq 'log --graph --pretty=format:"%C(italic red)%h%Creset %C(green)<--%Creset%C(bold reverse red)%d%Creset %s%n   %C(magenta)(%cd)%Creset %C(bold cyan)<%an>%Creset%C(green)(%G?)%Creset" --date=format:"%d/%m/%Y %H:%M"'
+git config --global alias.chk 'checkout'
 git config --global alias.bra 'branch -avv'
+```
+#### info
+```bash
+git config --global alias.loq 'log --graph --pretty=format:"%C(italic red)%h%Creset %C(green)<--%Creset%C(bold reverse red)%d%Creset %s%n   %C(magenta)(%cd)%Creset %C(bold cyan)<%an>%Creset%C(green)(%G?)%Creset" --date=format:"%d/%m/%Y %H:%M"'
 git config --global alias.difs 'diff --stat'
 ```
 #### committing
