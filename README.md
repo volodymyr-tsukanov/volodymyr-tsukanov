@@ -54,7 +54,7 @@
 [![Android](https://img.shields.io/badge/Android-393646?style=for-the-badge&logo=android)](https://github.com/volodymyr-tsukanov)
 [![Linux](https://img.shields.io/badge/Linux-393646?style=for-the-badge&logo=ubuntu)](https://github.com/volodymyr-tsukanov)
 [![Windows](https://img.shields.io/badge/Windows-393646?style=for-the-badge&logo=Windows)](https://github.com/volodymyr-tsukanov)
-[![Mac](https://img.shields.io/badge/Mac-393646?style=for-the-badge&logo=macos)](https://github.com/volodymyr-tsukanov)
+<!-- [![Mac](https://img.shields.io/badge/Mac-393646?style=for-the-badge&logo=macos)](https://github.com/volodymyr-tsukanov) -->
 <br><br>
 
 
@@ -92,7 +92,7 @@ git config --global alias.bra 'branch -avv'
 git config --global alias.loq 'log --graph --pretty=format:"%C(italic red)%h%Creset %C(green)<--%Creset%C(bold reverse red)%d%Creset %s%n   %C(magenta)(%cd)%Creset %C(bold cyan)<%an>%Creset%C(green)(%G?)%Creset" --date=format:"%d/%m/%Y %H:%M"'
 git config --global alias.difs 'diff --stat'
 ```
-#### committing
+#### commits
 ```bash
 # add & commit
 git config --global alias.ac '!git add -u && git commit -m'
@@ -112,7 +112,26 @@ git config --global alias.ecs 'commit --amend -S -m'
 # delete last commit
 git config --global alias.dc 'reset HEAD~1'
 ```
-#### push to remote
+#### branches
+  - new divergent branch
+```bash
+read -p "Default remote/src-branch (e.g., origin/main): " remote_base && \
+remote_base="${remote_base:-origin/main}" && \
+remote="${remote_base%%/*}" && \
+git config alias.div "! f() { \
+  FROM=\${2:-$remote_base}; \
+  REMOTE_PART=\${2%%/*}; \
+  PUSH_REMOTE=\${REMOTE_PART:-$remote}; \
+  git checkout -b \"\$1\" \"\$FROM\" && \
+  git push -u \"\$PUSH_REMOTE\" \"\$1\"; \
+}; f"
+```
+  - merge preview
+```bash
+git config --global alias.mergen 'merge --no-commit'
+```
+#### remotes
+  - push to remote
 ```bash
 git config --global alias.pmc 'push -u morig HEAD'
 git config --global alias.psh '!git push -u $1 HEAD || echo \"Unable to push: \"'
@@ -122,15 +141,11 @@ it is possible to use `git push` after `git pmc`
 ```bash
 git config --global alias.fpull '!git fetch && git pull'
 ```
-#### merge
-```bash
-git config --global alias.mergen 'merge --no-commit'
-```
-### default text editor
+#### default text editor
 ```bash
 git config --global core.editor "'<editor-path>'"
 ```
-### custom mergetool
+#### custom mergetool
 `git config --global --edit`
 ```
 [merge]
