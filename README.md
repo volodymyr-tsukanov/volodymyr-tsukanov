@@ -96,8 +96,10 @@ git config --global alias.difs 'diff --stat'
 ```bash
 # add & commit
 git config --global alias.ac '!git add -u && git commit -m'
-# add & sign & commit
+# add & commit with GPG sign
 git config --global alias.acs '!git add -u && git commit -S -m'
+# add & sign & commit using message from ./git.log with GPG sign
+git config --global alias.acfs '!git add -u && git commit -S -F ./git.log'
 # redo add
 git config --global alias.unadd 'restore --staged'
 ```
