@@ -164,7 +164,7 @@ git config --global core.editor "'<editor-path>'"
 ```
 #### cleanup
 > [!CAUTION]
-> executing the next alias will prune **ALL** unreachable and dangling commits
+> executing the next alias will clear _reflog_ and prune **ALL** unreachable and dangling commits
 ```bash
 git config --global alias.gcNow '! git reflog expire --expire=now --all && git gc --prune=now'
 ```
@@ -177,7 +177,7 @@ use `<path> merge=afail` inside _.gitattributes_
 #### gc expiration
 ```bash
 git config gc.reflogExpire 15.days  # default is 90
-git config gx.reflogExpireUnreachable 5.days  # default is 30
+git config gc.reflogExpireUnreachable 5.days  # default is 30
 ```
 </details> <br>
 
