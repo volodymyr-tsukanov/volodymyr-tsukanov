@@ -135,10 +135,8 @@ git config --global alias.mergen 'merge --no-commit'
 #### remotes
   - push to remote
 ```bash
-git config --global alias.pmc 'push -u morig HEAD'
 git config --global alias.psh '!git push -u $1 HEAD || echo \"Unable to push: \"'
 ```
-it is possible to use `git push` after `git pmc`
 #### fetch & pull
 ```bash
 git config --global alias.fpull '!git fetch && git pull'
@@ -164,12 +162,23 @@ git config --global core.editor "'<editor-path>'"
 [difftool "meld"]
 	path = D:/<meld-path>/Meld.exe
 ```
+#### cleanup
+> [!CAUTION]
+> executing the next alias will prune **ALL** unreachable and dangling commits
+```bash
+git config --global alias.gcNow '! git reflog expire --expire=now --all && git gc --prune=now'
+```
 ### attributes
 #### merge.forced conflicts
-```
+```bash
 git config merge.afail.name "Always fail (forced conflict)" && git config merge.afail.driver "false"
 ```
 use `<path> merge=afail` inside _.gitattributes_
+#### gc expiration
+```bash
+git config gc.reflogExpire 15.days  # default is 90
+git config gx.reflogExpireUnreachable 5.days  # default is 30
+```
 </details> <br>
 
 
