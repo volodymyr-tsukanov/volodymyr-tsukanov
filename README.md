@@ -1,3 +1,11 @@
+> [!CAUTION]
+> ### This portfolio is _deprecated_
+> ## [**VISIT ACTUAL**](https://github.com/voltzug)
+
+![Deprecated](https://img.shields.io/badge/status-Deprecated%20%F0%9F%AA%A6-DC143C?style=for-the-badge&logo=github)
+
+
+
 <h1 align="center">Hello everyone! 👋</h1>
 
 <p align="center">
@@ -8,7 +16,7 @@
 
 
 ### Links
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-393646?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/volodymyr-tsukanov-4b624a299)
+[![GitHub](https://img.shields.io/badge/Actual-393646?style=for-the-badge&logo=github)](https://github.com/voltzug)
 
 ### Languages
 [![Java](https://img.shields.io/badge/java-393646?style=for-the-badge&logo=openjdk)](https://github.com/volodymyr-tsukanov/telephone-book)
@@ -650,3 +658,8 @@ Hi, I'm Mona. You might recognize me as GitHub's mascot.
 |     2| Python    |
 |     3| SQL       |
 --->
+
+
+> [!CAUTION]
+> ### This portfolio is _deprecated_
+> ## [**VISIT ACTUAL**](https://github.com/voltzug)
